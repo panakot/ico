@@ -450,7 +450,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-05
+                    2020-04-23
                 </div>
                 
 
@@ -479,10 +479,11 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="H3CSE-Security-GB0-550-学习笔记"><a href="#H3CSE-Security-GB0-550-学习笔记" class="headerlink" title="H3CSE-Security(GB0-550)学习笔记"></a><center>H3CSE-Security(GB0-550)学习笔记</center></h1><h2 id="第二章-Web应用防火墙（WAF"><a href="#第二章-Web应用防火墙（WAF" class="headerlink" title="第二章 Web应用防火墙（WAF)"></a><center>第二章 Web应用防火墙（WAF)</center></h2><p>  <font color="red"><strong>温馨提示：本文使用的部分图片采用的是设备型号W2000-V300-G2</strong></font></p>
+                <h1 id="H3CSE-Security-GB0-550-学习笔记"><a href="#H3CSE-Security-GB0-550-学习笔记" class="headerlink" title="H3CSE-Security(GB0-550)学习笔记"></a><center>H3CSE-Security(GB0-550)学习笔记</center></h1><h2 id="第二章-Web应用防火墙（WAF"><a href="#第二章-Web应用防火墙（WAF" class="headerlink" title="第二章 Web应用防火墙（WAF)"></a><center>第二章 Web应用防火墙（WAF)</center></h2><p>  <font color="red"><strong>温馨提示：本文使用的部分图片采用的是设备型号W2000-V300-G2</strong></font>  </p>
 <h4 id="1-Web安全概述"><a href="#1-Web安全概述" class="headerlink" title="1. Web安全概述"></a>1. Web安全概述</h4><p>  Web应用已经成为一种普适平台，广泛应用于政务、办公、购物、教学、通讯、媒体等等。  </p>
 <p>  Web安全面临的新挑战，传统的安全防护是通过网络防火墙防80端口之外的攻击，Web攻击专攻80端口；Web安全边界模糊，因此导致网络边界、应用边界、账户权限边界模糊；Web应用系统弱点多样性，不限于CVE，因为开发Web程序的企业太多，弱点不在是固定的表征；黑客攻击门槛低，工具自动化、网上教程多这些也是导致Web安全的主要因素；网站被攻击事件频发，亡羊补牢不如事前防护。  </p>
-<h4 id="2-WAF产品基础"><a href="#2-WAF产品基础" class="headerlink" title="2. WAF产品基础"></a>2. WAF产品基础</h4><p>  <strong>1）WAF—Web Application Firewall（Web应用防火墙）</strong><br>  WAF是针对Web应用系统采取相应安全监测及防护措施的专用硬件网关类产品，区别于传统防火墙基于五元组进行的访问控制，WAF主要是通过执行丰富和灵活的HTTP/HTTPS或其他相关协议的安全检测策略来对用户的Web应用系统进行深度特征过滤机防护。  </p>
+<h4 id="2-WAF产品基础"><a href="#2-WAF产品基础" class="headerlink" title="2. WAF产品基础"></a>2. WAF产品基础</h4><p>  <strong>1）WAF—Web Application Firewall（Web应用防火墙）</strong>   </p>
+<p>  WAF是针对Web应用系统采取相应安全监测及防护措施的专用硬件网关类产品，区别于传统防火墙基于五元组进行的访问控制，WAF主要是通过执行丰富和灵活的HTTP/HTTPS或其他相关协议的安全检测策略来对用户的Web应用系统进行深度特征过滤机防护。  </p>
 <p><img src="WAF.png" alt="">    </p>
 <p>  H3C Web应用防火墙（简称H3C WAF）是H3C自主开发、拥有知识产权的新一代的Web安全防护产品。与上一代以代理技术为基础Web应用防火墙不同点主要在于：上一代Web防火墙以研究安全攻击特征为核心，依赖于安全特征匹配技术；新一代Web应用防火墙以用户网站为核心，自动依据网站学习建模，生成基于用户网站的专有安全规则，因此防护更有针对性，误判极低，且性能得到更大的提升。H3C WAF结合多年研发经验，充分考虑Web应用系统可能存在的安全风险，通过对网络层、Web服务层、Web应用程序层、应用内容属性四个层面进行全方位安全分析与防御。</p>
 <p>  <strong>2）功能优势</strong>  </p>
@@ -502,7 +503,8 @@
 <li>对于ESS6712P02之后的版本：</li>
 </ul>
 <p>   ◎ 在出厂配置下，设置有默认管理口，管理口为路由口，并配置有默认IP：192.168.0.1。<br>   ◎ 对于如下型号的设备：W2000-AK410、W2000-AK420、W2020-G、W2040-G、W2080-G、W2200-G，默认管理口为GE0/0接口。<br>   ◎ 对于如下型号的设备：W2000-AK430、W2000-AK440、W2010-G，默认管理口为GE0/7接口。<br>   ◎如果使用默认管理IP：192.168.0.1，则不需其他配置。如果需要修改管理IP，可以使用串口登录，通过命令行对管理口重新配置IP，并配置管理网段的路由。    </p>
-<p>  <strong>2）设备登录</strong><br>  ★ Console登录<br>  在设备出厂状态下，或特殊情况时，可通过Console接口登录设备进行管理。默认Console登录用户名：admin ，密码：admin 。默认Console接口的波特率：9600，COM口选择相应的COM端口，其他保持默认设置即可。使用命令行配置管理口的步骤如下：<br>  ① 设置管理口为路由模式<br>    set  interface GE0/0 mode route<br>  ② 设置管理口IP<br>    set interface GE0/0 ip 183.1.0.10/24<br>  ③设置管理口的路由<br>    set route 101.1.0.0/16 gw 183.1.0.1<br>  ★ Web页面登录<br>  Web管理的具体登录步骤如下：<br>    ① 连接设备和PC，用交叉线将PC和设备的管理口相连；<br>    ② 为PC配置IP地址，保证能与设备互通修改管理PC的IP地址为192.168.0.0/24（192.168.0.0/24网段内除192.168.0.1的任意地址即可），例如192.168.0.100。<br>    ③ 启动浏览器输入登录信息，在浏览器地址栏内输入 <code>https://192.168.0.1</code> 即可进入Web网管登录页面，输入用户名：admin ，密码：admin ,点击&lt;登录&gt;按钮即可进入Web管理页面进行相关操作。  </p>
+<p>  <strong>2）设备登录</strong>  </p>
+<p>  ★ Console登录<br>  在设备出厂状态下，或特殊情况时，可通过Console接口登录设备进行管理。默认Console登录用户名：admin ，密码：admin 。默认Console接口的波特率：9600，COM口选择相应的COM端口，其他保持默认设置即可。使用命令行配置管理口的步骤如下：<br>  ① 设置管理口为路由模式<br>    set  interface GE0/0 mode route<br>  ② 设置管理口IP<br>    set interface GE0/0 ip 183.1.0.10/24<br>  ③设置管理口的路由<br>    set route 101.1.0.0/16 gw 183.1.0.1<br>  ★ Web页面登录<br>  Web管理的具体登录步骤如下：<br>    ① 连接设备和PC，用交叉线将PC和设备的管理口相连；<br>    ② 为PC配置IP地址，保证能与设备互通修改管理PC的IP地址为192.168.0.0/24（192.168.0.0/24网段内除192.168.0.1的任意地址即可），例如192.168.0.100。<br>    ③ 启动浏览器输入登录信息，在浏览器地址栏内输入 <code>https://192.168.0.1</code> 即可进入Web网管登录页面，输入用户名：admin ，密码：admin ,点击&lt;登录&gt;按钮即可进入Web管理页面进行相关操作。  </p>
 <p>  <strong>3）导入许可</strong>  </p>
 <p>  H3C互联网安全实验室会不断更新Web攻击特征库，以让WAF能根据最新的数据库来检测、阻止病毒和Web攻击。但是各种特征更新都是有使用期限的，其许可证到期后，想要获取最新的特征库更新，则必须更新许可证文件以获得授权，进而继续使用并及时更新特征库。选择“系统维护 &gt; 许可证”页面，可进行许可证的导入。  </p>
 <p><img src="license.png" alt="">  </p>
@@ -520,9 +522,7 @@
 <p><img src="waf1-1.png" alt="">  </p>
 <p>  <font size="2"><strong>透明模式配置</strong></font><br>  在“系统配置 &gt; 侦测模式”页面，选择透明模式；<br>  在“网络配置 &gt; 网络接口”页面，配置业务口均为透明模式，接口GE0/1、bond1均为透明模式；<br>  在“网络配置 &gt; 虚拟局域网”页面，将上下行接口加入到VLAN 116中，同房的方法将bond1 加入到116；<br>  在“安全策略 &gt; Web安全策略”页面，根据需要添加或调整Web应用防护策略，系统默认有一条名为default的策略。<br>  在“安全策略 &gt; 策略引用”页面，将添加的Web安全策略与Web服务器进行关联：添加新的引用策略，上联口选择流量入接口GE0/1，选择入侵防护策略和Web安全策略，如default。添加被保护服务器，设置服务IP、端口和域名。<br>  在“安全策略 &gt; 策略引用”页面，将添加的Web安全策略与Web服务器进行关联：启动策略，即可实现对Web服务器的安全防护功能。  </p>
 <blockquote>
-</blockquote>
-<p>  <font size="5" color="red">注：</font><br> ☆ 透明部署时，如需要Bypass功能，WAF的进、出口需要选择一对Bypass口；<br> ☆ 各型号设备包含的Bypass口可参照《Web应用防火墙开局指导书》中各个面板示意图的介绍；<br> ☆ 如果设备自身不包含Bypass口，需要搭配插卡进行使用，各个插卡包含Bypass口可参照实际使用的插卡规格说明。 </p>
-<blockquote>
+<p><font size="5" color="red">注：</font><br>☆ 透明部署时，如需要Bypass功能，WAF的进、出口需要选择一对Bypass口；<br>☆ 各型号设备包含的Bypass口可参照《Web应用防火墙开局指导书》中各个面板示意图的介绍；<br>☆ 如果设备自身不包含Bypass口，需要搭配插卡进行使用，各个插卡包含Bypass口可参照实际使用的插卡规格说明。 </p>
 </blockquote>
 <p>  <strong>反向代理模式</strong>    </p>
 <p>  反向代理模式下，WAF旁路部署在交换机上，所有访问流量经过WAF转发到内网Web服务器上，需要将Web服务器映射到WAF的虚拟IP上，WAF能够完全隐藏Web服务器的真实IP地址，对外只提供Web服务器的虚拟IP，有效保障Web服务器安全。  </p>

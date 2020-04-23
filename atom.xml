@@ -476,7 +476,7 @@
     <link href="https://www.panakot.com/2020/04/17/04-bu-shu-hexo/"/>
     <id>https://www.panakot.com/2020/04/17/04-bu-shu-hexo/</id>
     <published>2020-04-17T08:31:54.000Z</published>
-    <updated>2020-04-23T05:50:08.657Z</updated>
+    <updated>2020-04-23T08:12:20.863Z</updated>
     
     <summary type="html">
     
@@ -499,7 +499,7 @@
     <link href="https://www.panakot.com/2020/04/17/03-pei-zhi-hexo/"/>
     <id>https://www.panakot.com/2020/04/17/03-pei-zhi-hexo/</id>
     <published>2020-04-17T08:29:04.000Z</published>
-    <updated>2020-04-23T05:14:03.380Z</updated>
+    <updated>2020-04-23T08:10:42.013Z</updated>
     
     <summary type="html">
     
@@ -507,10 +507,9 @@
       
         
         
-          &lt;h1 id=&quot;配置Hexo&quot;&gt;&lt;a href=&quot;#配置Hexo&quot; class=&quot;headerlink&quot; title=&quot;配置Hexo&quot;&gt;&lt;/a&gt;配置Hexo&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
-## 建立网站  
+          &lt;h2 id=&quot;配置Hexo&quot;&gt;&lt;a href=&quot;#配置Hexo&quot; class=&quot;headerlink&quot; title=&quot;配置Hexo&quot;&gt;&lt;/a&gt;配置Hexo&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;  
 
-&lt;p&gt; 安装好 Hexo 后即可建立你的网站。这里整理两种方式： 
+&lt;h3 id=&quot;建立网站&quot;&gt;&lt;a href=&quot;#建立网站&quot;
         
       
     
