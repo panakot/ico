@@ -4,227 +4,6 @@
   
     
     <entry>
-      <title>17-Windows Server 2012 R2——Hyper-V搭建</title>
-      <link href="/2020/04/17/17-windows-server-2012-r2-hyper-v-da-jian/"/>
-      <url>/2020/04/17/17-windows-server-2012-r2-hyper-v-da-jian/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>16-Windows Server 2012 R2——虚拟专用网VPN配置</title>
-      <link href="/2020/04/17/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/"/>
-      <url>/2020/04/17/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>15-Windows Server 2012 R2——网络地址转换NAT</title>
-      <link href="/2020/04/17/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/"/>
-      <url>/2020/04/17/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>14-Windows Server 2012 R2——路由器与网桥配置</title>
-      <link href="/2020/04/17/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/"/>
-      <url>/2020/04/17/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>13-Windows Server 2012 R2——SMTP服务器配置</title>
-      <link href="/2020/04/17/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/"/>
-      <url>/2020/04/17/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>12-Windows Server 2012 R2——IIS服务器搭建</title>
-      <link href="/2020/04/17/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/"/>
-      <url>/2020/04/17/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>11-Windows Server 2012 R2——Radius服务器搭建</title>
-      <link href="/2020/04/17/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/"/>
-      <url>/2020/04/17/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>10-Windows Server 2012 R2——故障转移集群配置</title>
-      <link href="/2020/04/17/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/"/>
-      <url>/2020/04/17/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>09-Windows Server 2012 R2——文件服务器</title>
-      <link href="/2020/04/17/09-windows-server-2012-r2-wen-jian-fu-wu-qi/"/>
-      <url>/2020/04/17/09-windows-server-2012-r2-wen-jian-fu-wu-qi/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>08-Windows Server 2012 R2——Ser-U部署</title>
-      <link href="/2020/04/17/08-windows-server-2012-r2-ser-u-bu-shu/"/>
-      <url>/2020/04/17/08-windows-server-2012-r2-ser-u-bu-shu/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>07-Windows Server 2012 R2——FTP服务器搭建</title>
-      <link href="/2020/04/17/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/"/>
-      <url>/2020/04/17/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>06-Windows Server 2012 R2——DHCP服务器搭建</title>
-      <link href="/2020/04/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/"/>
-      <url>/2020/04/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>03-Windows Server 2012 R2——多路径配置</title>
-      <link href="/2020/04/17/03-windows-server-2012-r2-duo-lu-jing-pei-zhi/"/>
-      <url>/2020/04/17/03-windows-server-2012-r2-duo-lu-jing-pei-zhi/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>05-Windows Server 2012 R2——DNS服务器搭建</title>
-      <link href="/2020/04/17/05-windows-server-2012-r2-dns-fu-wu-qi-da-jian/"/>
-      <url>/2020/04/17/05-windows-server-2012-r2-dns-fu-wu-qi-da-jian/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>04-Windows Server 2012 R2——AD域控制器搭建及配置教程</title>
-      <link href="/2020/04/17/04-windows-server-2012-r2-ad-yu-kong-zhi-qi-da-jian-ji-pei-zhi-jiao-cheng/"/>
-      <url>/2020/04/17/04-windows-server-2012-r2-ad-yu-kong-zhi-qi-da-jian-ji-pei-zhi-jiao-cheng/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Windows-Server-2012-R2搭建AD域及配置教程"><a href="#Windows-Server-2012-R2搭建AD域及配置教程" class="headerlink" title="Windows Server 2012 R2搭建AD域及配置教程"></a><center>Windows Server 2012 R2搭建AD域及配置教程</center></h1><p> 关于Windows Server 2012 R2操作系统的安装，这里将不做记录，目前还没有安装服务器操作系统，可以参考<a href="">《vmware workstation 15 pro 安装Windows Server 2012 R2操作系统详细教程》</a><br>##</p><h3 id="一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）"><a href="#一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）" class="headerlink" title="一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）"></a>一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）</h3><p> 在部署AD域控制器前，我们首先需要将Windows Server 2012 R2操作系统的网络相关配置规划好，网卡（单端口、双端口网卡绑定）、服务器IP地址、子网掩码、默认网关、DNS服务器地址，由于该服务器既要充当AD的角色，也要充当网络DNS服务器的角色，因此DNS地址填写自己的IP地址，备用DNS填写从域控制器IP地址。（此次搭建AD域控制器采用双机方式，DNS部署不在这里展现，关于DNS服务器的搭建部署，请参考<a href="">《Windows Server 2012 R2搭建DNS服务器的详细教程》</a>）,操作系统网络信息如下图所示：  </p><p><img src="01.png" alt="">  </p><p>  步骤1、修改主机名，单击“这台电脑”右键“属性”，在系统页面点击“更改设置”，“计算机名–更改”。计算机名随意，只是为了标识某一台设备而定义的名称，方便记忆。我这里输入“domain”;更改完计算机名会提示重启服务器，点击“立即重新启动”；  </p><p><img src="02.png" alt="">  </p><p>  步骤2、点击Windows Server 2012 R2桌面左下角的“服务器管理器”，打开后，显示界面如图所示：    </p><p><img src="010.png" alt="">  </p><p>  步骤3、点击“管理” &gt; “添加角色和功能”，会弹出“添加角色和功能向导” ，点击下一步；   </p><p><img src="03.png" alt=""><br><img src="04.png" alt="">  </p><p>  步骤4、这里选择“基于角色和基于功能的安装”，点击下一步；   </p><p><img src="05.png" alt="">  </p><p>  步骤5、从服务器池中选择服务器，这里选择默认，点击“下一步”；假如您需要针对其他服务器主机安装AD角色，这里可以选择您需要的主机，点击下一步。  </p><p><img src="06.png" alt="">    </p><p>  步骤6、角色选择，勾选“Active Directory域服务”，当勾选这个选项后，会弹出“添加Active Directory域服务所需的功能”，点击“添加功能”，然后返回到角色选择窗口，点击“下一步”；  </p><p><img src="07.png" alt=""><br><img src="08.png" alt="">  </p><p>  步骤7、功能选择页面不需要做任何选择，直接点击“下一步”即可；  </p><p><img src="09.png" alt=""></p><p>  步骤8、这里介绍AD角色功能的注意事项，点击“下一步”；  </p><p><img src="10.png" alt=""></p><p>  步骤9、勾选“如果有需要，自动重新启动目标服务器”，点击安装；  </p><p><img src="11.png" alt=""></p><p>  步骤10、功能安装成功后，但不代表我们就将AD域控制器完全安装好了，这里点击“将此服务器提升为域控制器”  </p><p><img src="12.png" alt=""></p><p>  步骤11、在新弹出的“Active Directory域服务配置向导”，选择“添加新林(F)”,根域名处填写相应的域名，点击“下一步”；  </p><p><img src="012.png" alt=""></p><p>  步骤12、在域控制器选项处，选择新林和根域的功能级别，选择指定域控制器功能：DNS/GC/RODC，这里选择默认，然后在下面设置DSRM密码，点击“下一步”；  </p><p><img src="13.png" alt=""></p><p>  步骤13、直接点击“下一步”，由于不需要委派DNS，所以这里不需要设置；  </p><p><img src="013.png" alt="">  </p><p>  步骤14、配置NetBios域名，若没有特殊需求，默认即可，点击“下一步”；  </p><p><img src="14.png" alt=""></p><p>  步骤15、配置日志，数据库，SYSVOL路径，若没有特殊需求，默认就可以，点击“下一步”；  </p><p><img src="15.png" alt=""></p><p>  步骤16、查看配置信息，若没有任何问题，直接点击“下一步”；  </p><p><img src="16.png" alt=""></p><p>  步骤17、先决条件检查，检查是否满足条件，条件满足后就可以直接点击“安装”；  </p><p><img src="19.png" alt="">  </p><p>  步骤18、等待Active Directory的安装，需要重启服务器；   </p><p><img src="17.png" alt=""></p><p>  步骤19、重启完成后，就可以看到AD角色已经安装完成。  </p><p><img src="18.png" alt=""></p><h3 id="二、部署从域控制器"><a href="#二、部署从域控制器" class="headerlink" title="二、部署从域控制器"></a>二、部署从域控制器</h3><p> 首先配置从域控制器服务器的IP地址、子网掩码、默认网关的参数。由于该服务器既要充当从AD域控制器角色，也要充当网络中备用DNS的角色，所以首选DNS填写主域控制器的IP地址，备用DNS填写自己的IP地址。网络信息如下图所示：  </p><p><img src="20.png" alt="">  </p><p> <font size="5" color="red">注：从域控制器步骤2～10和主域控制器的配置步骤雷同，可以直接跳到步骤11。</font>  </p><p>  步骤1、修改主机名，单击“这台电脑”右键“属性”，在系统页面点击“更改设置”，“计算机名–更改”。计算机名随意，只是为了标识某一台设备而定义的名称，方便记忆。我这里输入“domainbackup”;更改完计算机名会提示重启服务器，点击“立即重新启动”；  </p><p><img src="21.png" alt="">  </p><p>  步骤2、点击Windows Server 2012 R2桌面左下角的“服务器管理器”，打开后，显示界面如图所示：    </p><p><img src="010.png" alt="">  </p><p>  步骤3、点击“管理” &gt; “添加角色和功能”，会弹出“添加角色和功能向导” ，点击下一步；   </p><p><img src="03.png" alt=""><br><img src="004.png" alt="">  </p><p>  步骤4、这里选择“基于角色和基于功能的安装”，点击下一步；   </p><p><img src="005.png" alt="">  </p><p>  步骤5、从服务器池中选择服务器，这里选择默认，点击“下一步”；假如您需要针对其他服务器主机安装AD角色，这里可以选择您需要的主机，点击下一步。  </p><p><img src="22.png" alt="">  </p><p>  步骤6、角色选择，勾选“Active Directory域服务”，当勾选这个选项后，会弹出“添加Active Directory域服务所需的功能”，点击“添加功能”，然后返回到角色选择窗口，点击“下一步”；  </p><p><img src="007.png" alt=""><br><img src="008.png" alt="">  </p><p>  步骤7、功能选择页面不需要做任何选择，直接点击“下一步”即可；  </p><p><img src="009.png" alt=""></p><p>  步骤8、这里介绍AD角色功能的注意事项，点击“下一步”；  </p><p><img src="0010.png" alt=""></p><p>  步骤9、勾选“如果有需要，自动重新启动目标服务器”，点击安装；  </p><p><img src="011.png" alt=""></p><p>  步骤10、功能安装成功后，但不代表我们就将AD域控制器完全安装好了，这里点击“将此服务器提升为域控制器”  </p><p><img src="0012.png" alt="">  </p><p>  步骤11、在新弹出的“Active Directory域服务配置向导”，选择“将域控制器添加到现有域(D)”,点击选择，然后在弹出的“Windows安全”栏中输入主域控制器的域控制器管理员账号和密码，点击“确定”，在弹出的窗口选中主域控制器的域名，点击“确定”，回到“部署配置”选项，点击“下一步”；   </p><p><img src="23.png" alt=""><br><img src="24.png" alt=""><br><img src="25.png" alt=""><br><img src="26.png" alt="">  </p><p>  步骤12、由于是从域控制器，所以在“域控制器选项”中选择域名系统（DNS）服务器、全局编录（GC)功能，设置DSRM密码。为方便记忆，填写和主域控制器一样的DSRM密码。 </p><p><img src="27.png" alt="">  </p><p>  步骤13、直接点击“下一步”，由于不需要委派DNS，所以这里不需要设置；  </p><p><img src="28.png" alt="">  </p><p>  步骤14、选择从主域控制器复制数据，复制来自“domain.panakot.com”，点击“下一步”；  </p><p><img src="29.png" alt="">  </p><p>  步骤15、配置日志，数据库，SYSVOL路径，若没有特殊需求，默认就可以，点击“下一步”；  </p><p><img src="30.png" alt="">  </p><p>  步骤16、查看配置信息，若没有任何问题，直接点击“下一步”； </p><p><img src="31.png" alt="">  </p><p>  步骤17、先决条件检查，检查是否满足条件，条件满足后就可以直接点击“安装”；  </p><p><img src="32.png" alt="">  </p><p>  步骤18、等待Active Directory的安装，需要重启服务器；  </p><p><img src="33.png" alt="">  </p><p> 到这里从域控制器也配置完成了，等待服务器重启。</p><h3 id="三、验证AD域控制器是否安装成功"><a href="#三、验证AD域控制器是否安装成功" class="headerlink" title="三、验证AD域控制器是否安装成功"></a>三、验证AD域控制器是否安装成功</h3><p>  步骤1、运行CMD命令行，输入“netdom query fsmo”,这时会显示五种角色都已经安装成功；  </p><p><img src="34.png" alt="">  </p><p>  步骤2、若要进一步验证AD是否安装正确，可以使用DCDIAG /a命令行；  </p><p><img src="35.png" alt="">  </p><p>  步骤3、使用Repadmin诊断工具检查目录复制问题，包括管理和修改复制拓扑，强制复制事件和显示复制元数据与最新矢量，使用命令<code>repadmin /showreps</code>。  </p><p><img src="36.png" alt="">  </p><h3 id="三、"><a href="#三、" class="headerlink" title="三、"></a>三、</h3><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>02-Windows Server 2012 R2——部署iSCSI共享磁盘</title>
-      <link href="/2020/04/17/02-windows-server-2012-r2-bu-shu-iscsi-gong-xiang-ci-pan/"/>
-      <url>/2020/04/17/02-windows-server-2012-r2-bu-shu-iscsi-gong-xiang-ci-pan/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>01-Windows Server 2012 R2——网卡绑定</title>
-      <link href="/2020/04/17/01-windows-server-2012-r2-wang-qia-bang-ding/"/>
-      <url>/2020/04/17/01-windows-server-2012-r2-wang-qia-bang-ding/</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>04-部署Hexo</title>
       <link href="/2020/04/17/04-bu-shu-hexo/"/>
       <url>/2020/04/17/04-bu-shu-hexo/</url>
@@ -295,6 +74,227 @@
       <url>/2020/03/24/h3cse-security-gb0-550-di-yi-zhang-bu-shu-nei-rong-an-quan-gai-shu/</url>
       
         <content type="html"><![CDATA[<h1 id="H3CSE-Security-GB0-550-学习笔记"><a href="#H3CSE-Security-GB0-550-学习笔记" class="headerlink" title="H3CSE-Security(GB0-550)学习笔记"></a><center>H3CSE-Security(GB0-550)学习笔记</center></h1><h2 id="第一章-部署内容安全概述"><a href="#第一章-部署内容安全概述" class="headerlink" title="第一章 部署内容安全概述"></a><center>第一章 部署内容安全概述</center></h2><h4 id="emsp-1-部署内容安全概述"><a href="#emsp-1-部署内容安全概述" class="headerlink" title=" 1. 部署内容安全概述"></a> 1. 部署内容安全概述</h4><p> 1）何为内容安全?  </p><p>  内容安全顾名思义就是提供应用层安全防护</p>   2）内容安全所面临的挑战   <ul><li>攻击方式、攻击手段、攻击来源多样化，难以防范；  </li><li>不同形式的网络攻击层出不穷。内容安全随时在面临着危险；  </li><li>国内企业信息安全体系建设处于初级阶段；  </li></ul><h4 id="emsp-2-内容安全风险"><a href="#emsp-2-内容安全风险" class="headerlink" title=" 2.内容安全风险"></a> 2.内容安全风险</h4><p> 1) DDO攻击  </p><p><img src="ddos.png" alt="DDoS攻击示意图">  </p><p> DDoS是Distributed Denial of Service的简称，即分布式拒绝服务，此攻击指借助于客户/服务器技术，将多个计算机联合起来作为攻击平台，对一个或多个目标发起DDoS攻击，从而成倍地提供拒绝服务攻击的威力。   </p><p> Denial of Service的简称，即拒绝服务，造成DoS的攻击行为被称为DoS攻击，其目的是使计算机或网络无法提供正常的服务。不同于其他的留有木马后门或劫持数据的方式，DoS攻击并不威胁敏感数据，只是使合法用户不能获得应用的服务。  </p><p> 2) Web应用风险  </p><p> 十大Web应用安全风险  </p><p>  A1—注入 （Injection）：是指攻击者通过输入恶意数据，从而达到在Web服务器环境下运行任意指令的目的。比较有名的是SQL、XML和LDAP注入。在应用程序中，通过对用户输入的特定字符进行转义，可以预防恶意数据的注入。</p><p>  A2—跨站脚本 （Cross-Site  Scripting，XSS）：是指应用程序在没有对用户输入进行正确验证的情况下，将这些输入直接输出到了Web浏览器中，而这些输入一旦被浏览器执行，将有可能导致会话劫持、cookie窃取或者Web站点数据被污染。在应用程序中，通过对HTML、JavaScript或者CSS输出中不受信任的元字符进行转义，可以预防跨站脚本。</p><p>  A3—无效的验证和会话管理 （Broken Authentication and Session Management）：使用不安全的验证和会话管理程序，可能会导致用户账户被劫持，或者导致会话token可预测。开发一个健壮的验证和会话管理程序可以预防此类攻击。我们强烈建议使用加密、散列和基于SSL或者TLS的安全数据连接。</p><p>  A4—不安全的直接对象引用： 如果应用程序提供其内部对象的直接引用，并且没有进行正确验证，那么可能会导致攻击者操纵这些引用并访问未经授权的数据。这个内部对象可能是用户账户的参数值、文件名或者目录。在访问控制检查（access control  check）完成之前，限制所有用户可访问的内部对象，可以确保对相关对象的每一次访问都是经过验证的。</p><p>  A5—跨站请求伪造 （Cross-Site  Request  Forgery ，CSRF）：是指在存在漏洞的Web应用中，强迫经过验证的用户去运行伪造的HTTP请求。这些恶意请求都是在合法的用户会话中被执行的，因此无法检测到。通过在每一个用户会话中都生成一个不可预测的token，然后每次发送HTTP请求时都绑定这个token，可以减轻CSRF攻击的危害。</p><p>  A6—错误的安全配置 （Security Misconfiguration）：有时候，使用默认的安全配置可能会导致应用程序容易遭受多种攻击。在已经部署的应用、Web服务器、数据库服务器、操作系统、代码库以及所有和应用程序相关的组件中，都应该使用现有的最佳安全配置，这一点至关重要。通过不断地进行软件更新、打补丁、从严制定应用环境中的安全规则，可以实现安全的应用程序配置。</p><p>  A7—不安全的密码存储 （Insecure Cryptographic  Storage）：那些没有对敏感数据（例如医保信息、信用卡交易、个人信息、认证细节等）使用密码保护机制的应用程序，都可以归到这类中。通过使用健壮的标准加密算法或散列算法，可以保障数据的安全性。</p><p>  A8—失败的URL访问权限限制 （Failure to Restrict URL Access）：如果Web应用程序没有对URL的访问进行权限检查，那么攻击者可能可以访问未经授权的网页。为了解决这个问题，需要运用合适的身份证明和授权控制机制来限制对私有URL的访问，同时需要为那些可以访问高敏感性数据的特殊用户和角色开发一套合适的权限控制策略。</p><p>  A9—薄弱的传输层保护 （Insufficient Transport Layer Protection）：使用低强度的加密算法、无效的安全证书以及不恰当的身份证明控制机制，会破坏数据的机密性和完整性。这些应用数据将有可能遭到流量窃听和篡改攻击。通过在传输所有敏感网页时使用SSL协议，并使用权威认证机构颁布的合法数字证书，可以解决这类安全问题。</p><p>  A10—未验证的重定向和转发 （Unvalidated Redirects and Forwards）：很多Web应用程序使用动态参数将用户重定向或者转到某个特定的URL上。攻击者可以通过相同的方法伪造一个恶意的URL，将用户重定向到钓鱼网站或者恶意站点上。这种攻击方式还可以用于将请求转发到本地未经授权的网页上。要想避免非法重定向和转发，只需要简单地验证请求中的参数和发出请求的用户的访问权限。</p><p> 3）漏洞  </p><p> 漏洞是指一个系统存在的弱点或缺陷，系统对特定威胁攻击或危险事件的敏感性，或进行攻击的威胁作用的可能性。漏洞可能来自应用软件或操作系统设计时的缺陷或编码时产生的错误，也可能来自业务在交互处理过程中的设计缺陷或逻辑流程上的不合理之处。这些缺陷、错误或不合理之处可能被有意或无意地利用，从而对一个组织的资产或运行造成不利影响，如信息系统被攻击或控制，重要资料被窃取，用户数据被篡改，系统被作为入侵其他主机系统的跳板。从目前发现的漏洞来看，应用软件中的漏洞远远多于操作系统中的漏洞，特别是WEB应用系统中的漏洞更是占信息系统漏洞中的绝大多数。  </p><h4 id="emsp-3-内容安全需求"><a href="#emsp-3-内容安全需求" class="headerlink" title=" 3.内容安全需求"></a> 3.内容安全需求</h4><p> 安全隔离与信息交换<br> 运维安全<br> 数据库安全<br> 运维审计安全<br> Web应用安全</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>17-Windows Server 2012 R2——Hyper-V搭建</title>
+      <link href="/2018/09/28/17-windows-server-2012-r2-hyper-v-da-jian/"/>
+      <url>/2018/09/28/17-windows-server-2012-r2-hyper-v-da-jian/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>16-Windows Server 2012 R2——虚拟专用网VPN配置</title>
+      <link href="/2018/09/27/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/"/>
+      <url>/2018/09/27/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>15-Windows Server 2012 R2——网络地址转换NAT</title>
+      <link href="/2018/09/26/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/"/>
+      <url>/2018/09/26/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>14-Windows Server 2012 R2——路由器与网桥配置</title>
+      <link href="/2018/09/25/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/"/>
+      <url>/2018/09/25/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>13-Windows Server 2012 R2——SMTP服务器配置</title>
+      <link href="/2018/09/24/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/"/>
+      <url>/2018/09/24/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>12-Windows Server 2012 R2——IIS服务器搭建</title>
+      <link href="/2018/09/23/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/"/>
+      <url>/2018/09/23/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>11-Windows Server 2012 R2——Radius服务器搭建</title>
+      <link href="/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/"/>
+      <url>/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>10-Windows Server 2012 R2——故障转移集群配置</title>
+      <link href="/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/"/>
+      <url>/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>09-Windows Server 2012 R2——文件服务器</title>
+      <link href="/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/"/>
+      <url>/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>08-Windows Server 2012 R2——Ser-U部署</title>
+      <link href="/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/"/>
+      <url>/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>07-Windows Server 2012 R2——FTP服务器搭建</title>
+      <link href="/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/"/>
+      <url>/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>06-Windows Server 2012 R2——DHCP服务器搭建</title>
+      <link href="/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/"/>
+      <url>/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>05-Windows Server 2012 R2——DNS服务器搭建</title>
+      <link href="/2018/09/16/05-windows-server-2012-r2-dns-fu-wu-qi-da-jian/"/>
+      <url>/2018/09/16/05-windows-server-2012-r2-dns-fu-wu-qi-da-jian/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>04-Windows Server 2012 R2——AD域控制器搭建及配置教程</title>
+      <link href="/2018/09/15/04-windows-server-2012-r2-ad-yu-kong-zhi-qi-da-jian-ji-pei-zhi-jiao-cheng/"/>
+      <url>/2018/09/15/04-windows-server-2012-r2-ad-yu-kong-zhi-qi-da-jian-ji-pei-zhi-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Windows-Server-2012-R2搭建AD域及配置教程"><a href="#Windows-Server-2012-R2搭建AD域及配置教程" class="headerlink" title="Windows Server 2012 R2搭建AD域及配置教程"></a><center>Windows Server 2012 R2搭建AD域及配置教程</center></h1><p> 关于Windows Server 2012 R2操作系统的安装，这里将不做记录，目前还没有安装服务器操作系统，可以参考<a href="">《vmware workstation 15 pro 安装Windows Server 2012 R2操作系统详细教程》</a><br>##</p><h3 id="一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）"><a href="#一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）" class="headerlink" title="一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）"></a>一、部署主AD域控制器（部署单域控，按照以下步骤配置，配置双域控，请查阅全文。）</h3><p> 在部署AD域控制器前，我们首先需要将Windows Server 2012 R2操作系统的网络相关配置规划好，网卡（单端口、双端口网卡绑定）、服务器IP地址、子网掩码、默认网关、DNS服务器地址，由于该服务器既要充当AD的角色，也要充当网络DNS服务器的角色，因此DNS地址填写自己的IP地址，备用DNS填写从域控制器IP地址。（此次搭建AD域控制器采用双机方式，DNS部署不在这里展现，关于DNS服务器的搭建部署，请参考<a href="">《Windows Server 2012 R2搭建DNS服务器的详细教程》</a>）,操作系统网络信息如下图所示：  </p><p><img src="01.png" alt="">  </p><p>  步骤1、修改主机名，单击“这台电脑”右键“属性”，在系统页面点击“更改设置”，“计算机名–更改”。计算机名随意，只是为了标识某一台设备而定义的名称，方便记忆。我这里输入“domain”;更改完计算机名会提示重启服务器，点击“立即重新启动”；  </p><p><img src="02.png" alt="">  </p><p>  步骤2、点击Windows Server 2012 R2桌面左下角的“服务器管理器”，打开后，显示界面如图所示：    </p><p><img src="010.png" alt="">  </p><p>  步骤3、点击“管理” &gt; “添加角色和功能”，会弹出“添加角色和功能向导” ，点击下一步；   </p><p><img src="03.png" alt=""><br><img src="04.png" alt="">  </p><p>  步骤4、这里选择“基于角色和基于功能的安装”，点击下一步；   </p><p><img src="05.png" alt="">  </p><p>  步骤5、从服务器池中选择服务器，这里选择默认，点击“下一步”；假如您需要针对其他服务器主机安装AD角色，这里可以选择您需要的主机，点击下一步。  </p><p><img src="06.png" alt="">    </p><p>  步骤6、角色选择，勾选“Active Directory域服务”，当勾选这个选项后，会弹出“添加Active Directory域服务所需的功能”，点击“添加功能”，然后返回到角色选择窗口，点击“下一步”；  </p><p><img src="07.png" alt=""><br><img src="08.png" alt="">  </p><p>  步骤7、功能选择页面不需要做任何选择，直接点击“下一步”即可；  </p><p><img src="09.png" alt=""></p><p>  步骤8、这里介绍AD角色功能的注意事项，点击“下一步”；  </p><p><img src="10.png" alt=""></p><p>  步骤9、勾选“如果有需要，自动重新启动目标服务器”，点击安装；  </p><p><img src="11.png" alt=""></p><p>  步骤10、功能安装成功后，但不代表我们就将AD域控制器完全安装好了，这里点击“将此服务器提升为域控制器”  </p><p><img src="12.png" alt=""></p><p>  步骤11、在新弹出的“Active Directory域服务配置向导”，选择“添加新林(F)”,根域名处填写相应的域名，点击“下一步”；  </p><p><img src="012.png" alt=""></p><p>  步骤12、在域控制器选项处，选择新林和根域的功能级别，选择指定域控制器功能：DNS/GC/RODC，这里选择默认，然后在下面设置DSRM密码，点击“下一步”；  </p><p><img src="13.png" alt=""></p><p>  步骤13、直接点击“下一步”，由于不需要委派DNS，所以这里不需要设置；  </p><p><img src="013.png" alt="">  </p><p>  步骤14、配置NetBios域名，若没有特殊需求，默认即可，点击“下一步”；  </p><p><img src="14.png" alt=""></p><p>  步骤15、配置日志，数据库，SYSVOL路径，若没有特殊需求，默认就可以，点击“下一步”；  </p><p><img src="15.png" alt=""></p><p>  步骤16、查看配置信息，若没有任何问题，直接点击“下一步”；  </p><p><img src="16.png" alt=""></p><p>  步骤17、先决条件检查，检查是否满足条件，条件满足后就可以直接点击“安装”；  </p><p><img src="19.png" alt="">  </p><p>  步骤18、等待Active Directory的安装，需要重启服务器；   </p><p><img src="17.png" alt=""></p><p>  步骤19、重启完成后，就可以看到AD角色已经安装完成。  </p><p><img src="18.png" alt=""></p><h3 id="二、部署从域控制器"><a href="#二、部署从域控制器" class="headerlink" title="二、部署从域控制器"></a>二、部署从域控制器</h3><p> 首先配置从域控制器服务器的IP地址、子网掩码、默认网关的参数。由于该服务器既要充当从AD域控制器角色，也要充当网络中备用DNS的角色，所以首选DNS填写主域控制器的IP地址，备用DNS填写自己的IP地址。网络信息如下图所示：  </p><p><img src="20.png" alt="">  </p><p> <font size="5" color="red">注：从域控制器步骤2～10和主域控制器的配置步骤雷同，可以直接跳到步骤11。</font>  </p><p>  步骤1、修改主机名，单击“这台电脑”右键“属性”，在系统页面点击“更改设置”，“计算机名–更改”。计算机名随意，只是为了标识某一台设备而定义的名称，方便记忆。我这里输入“domainbackup”;更改完计算机名会提示重启服务器，点击“立即重新启动”；  </p><p><img src="21.png" alt="">  </p><p>  步骤2、点击Windows Server 2012 R2桌面左下角的“服务器管理器”，打开后，显示界面如图所示：    </p><p><img src="010.png" alt="">  </p><p>  步骤3、点击“管理” &gt; “添加角色和功能”，会弹出“添加角色和功能向导” ，点击下一步；   </p><p><img src="03.png" alt=""><br><img src="004.png" alt="">  </p><p>  步骤4、这里选择“基于角色和基于功能的安装”，点击下一步；   </p><p><img src="005.png" alt="">  </p><p>  步骤5、从服务器池中选择服务器，这里选择默认，点击“下一步”；假如您需要针对其他服务器主机安装AD角色，这里可以选择您需要的主机，点击下一步。  </p><p><img src="22.png" alt="">  </p><p>  步骤6、角色选择，勾选“Active Directory域服务”，当勾选这个选项后，会弹出“添加Active Directory域服务所需的功能”，点击“添加功能”，然后返回到角色选择窗口，点击“下一步”；  </p><p><img src="007.png" alt=""><br><img src="008.png" alt="">  </p><p>  步骤7、功能选择页面不需要做任何选择，直接点击“下一步”即可；  </p><p><img src="009.png" alt=""></p><p>  步骤8、这里介绍AD角色功能的注意事项，点击“下一步”；  </p><p><img src="0010.png" alt=""></p><p>  步骤9、勾选“如果有需要，自动重新启动目标服务器”，点击安装；  </p><p><img src="011.png" alt=""></p><p>  步骤10、功能安装成功后，但不代表我们就将AD域控制器完全安装好了，这里点击“将此服务器提升为域控制器”  </p><p><img src="0012.png" alt="">  </p><p>  步骤11、在新弹出的“Active Directory域服务配置向导”，选择“将域控制器添加到现有域(D)”,点击选择，然后在弹出的“Windows安全”栏中输入主域控制器的域控制器管理员账号和密码，点击“确定”，在弹出的窗口选中主域控制器的域名，点击“确定”，回到“部署配置”选项，点击“下一步”；   </p><p><img src="23.png" alt=""><br><img src="24.png" alt=""><br><img src="25.png" alt=""><br><img src="26.png" alt="">  </p><p>  步骤12、由于是从域控制器，所以在“域控制器选项”中选择域名系统（DNS）服务器、全局编录（GC)功能，设置DSRM密码。为方便记忆，填写和主域控制器一样的DSRM密码。 </p><p><img src="27.png" alt="">  </p><p>  步骤13、直接点击“下一步”，由于不需要委派DNS，所以这里不需要设置；  </p><p><img src="28.png" alt="">  </p><p>  步骤14、选择从主域控制器复制数据，复制来自“domain.panakot.com”，点击“下一步”；  </p><p><img src="29.png" alt="">  </p><p>  步骤15、配置日志，数据库，SYSVOL路径，若没有特殊需求，默认就可以，点击“下一步”；  </p><p><img src="30.png" alt="">  </p><p>  步骤16、查看配置信息，若没有任何问题，直接点击“下一步”； </p><p><img src="31.png" alt="">  </p><p>  步骤17、先决条件检查，检查是否满足条件，条件满足后就可以直接点击“安装”；  </p><p><img src="32.png" alt="">  </p><p>  步骤18、等待Active Directory的安装，需要重启服务器；  </p><p><img src="33.png" alt="">  </p><p> 到这里从域控制器也配置完成了，等待服务器重启。</p><h3 id="三、验证AD域控制器是否安装成功"><a href="#三、验证AD域控制器是否安装成功" class="headerlink" title="三、验证AD域控制器是否安装成功"></a>三、验证AD域控制器是否安装成功</h3><p>  步骤1、运行CMD命令行，输入“netdom query fsmo”,这时会显示五种角色都已经安装成功；  </p><p><img src="34.png" alt="">  </p><p>  步骤2、若要进一步验证AD是否安装正确，可以使用DCDIAG /a命令行；  </p><p><img src="35.png" alt="">  </p><p>  步骤3、使用Repadmin诊断工具检查目录复制问题，包括管理和修改复制拓扑，强制复制事件和显示复制元数据与最新矢量，使用命令<code>repadmin /showreps</code>。  </p><p><img src="36.png" alt="">  </p><h3 id="三、"><a href="#三、" class="headerlink" title="三、"></a>三、</h3><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>03-Windows Server 2012 R2——多路径配置</title>
+      <link href="/2018/09/14/03-windows-server-2012-r2-duo-lu-jing-pei-zhi/"/>
+      <url>/2018/09/14/03-windows-server-2012-r2-duo-lu-jing-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>02-Windows Server 2012 R2——部署iSCSI共享磁盘</title>
+      <link href="/2018/09/13/02-windows-server-2012-r2-bu-shu-iscsi-gong-xiang-ci-pan/"/>
+      <url>/2018/09/13/02-windows-server-2012-r2-bu-shu-iscsi-gong-xiang-ci-pan/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>01-Windows Server 2012 R2——网卡绑定</title>
+      <link href="/2018/09/12/01-windows-server-2012-r2-wang-qia-bang-ding/"/>
+      <url>/2018/09/12/01-windows-server-2012-r2-wang-qia-bang-ding/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       
