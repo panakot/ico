@@ -450,7 +450,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-17
+                    2020-04-23
                 </div>
                 
 
@@ -480,16 +480,19 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h1><p></p>
-## 建立网站 
- 安装好 Hexo 后即可建立你的网站。这里整理两种方式：  
-  ① 在某盘符新建一个文件夹，命名定义自己喜欢的、方便的。然后鼠标双击进入文件夹，通过鼠标右键，点击" Git Base Here "，打开当前路径。使用如下命令：  
+## 建立网站  
 
-<pre><code>hexo init    //hexo会在当前路径的文件夹中创建所需的文件  </code></pre><p>  图1：<br><img src="git_base_here1.png" alt="图1">  </p>
-<p>  图2：<br><img src="hexo_install.png" alt="图2"><br>  ②随便在Windwons的任何文件夹点击鼠标右键，通过” Git Base Here “中来创建hexo所需的文件。使用命令如下：  </p>
+<p> 安装好 Hexo 后即可建立你的网站。这里整理两种方式：  </p>
+<p>  ① 在某盘符新建一个文件夹，命名定义自己喜欢的、方便的。然后鼠标双击进入文件夹，通过鼠标右键，点击” Git Base Here “，打开当前路径。使用如下命令：  </p>
+<pre><code>hexo init    //hexo会在当前路径的文件夹中创建所需的文件   </code></pre><p>  图1：  </p>
+<p><img src="git_base_here1.png" alt="">  </p>
+<p>  图2：  </p>
+<p><img src="hexo_install.png" alt="">  </p>
+<p>  ②随便在Windwons的任何文件夹点击鼠标右键，通过” Git Base Here “中来创建hexo所需的文件。使用命令如下：  </p>
 <pre><code> mkdir /j/Blog/www.panakot.cn &amp;&amp; cd /j/Blog/www.panakot.cn   //在J盘的Blog文件下创建www.panakot.cn文件夹并进入到该文件夹  
 
  hexo init                                                  //hexo会在当前路径的文件夹中创建所需的文件  </code></pre><p>  图3：  </p>
-<p><img src="hexo_mkdir.png" alt="图3">  </p>
+<p><img src="hexo_mkdir.png" alt="">  </p>
 <p> 新建完成后，指定文件夹的目录如下：</p>
 <pre><code>.  
 ├── themes   
@@ -498,7 +501,8 @@
 ├── source  
 |   ├── _drafts  
 |   └── _posts  
-└──_config.yml</code></pre><p>  图4：<br><img src="hexo_install_file.png" alt="图4">   </p>
+└──_config.yml</code></pre><p>  图4：  </p>
+<p><img src="hexo_install_file.png" alt="">   </p>
 <p> 重点解析该类文件夹及文件的功能和作用： </p>
 <p>  <strong>themes</strong>   </p>
 <p>  主题文件夹。Hexo 会根据主题来生成静态页面。默认会生成一个landscape的主题文件夹，你也可以去<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo官网</a>下载自己如意的Hexo主题，然后将下载好的主题放在该目录下，稍后再介绍如何修改主题。<br>  <strong>scaffolds</strong>  </p>
@@ -528,7 +532,8 @@
     "hexo-renderer-marked": "^0.3.2",
     "hexo-server": "^0.3.3"
   }    
-}</code></pre><p>  <strong>_config.yml</strong><br>   全局配置文件，网站的很多信息都在这里配置，诸如网站名称，副标题，描述，作者，语言，主题，部署等等参数。这个文件下面会做较为详细的介绍。</p>
+}</code></pre><p>  <strong>_config.yml</strong>   </p>
+<p>   全局配置文件，网站的很多信息都在这里配置，诸如网站名称，副标题，描述，作者，语言，主题，部署等等参数。这个文件下面会做较为详细的介绍。</p>
 <pre><code># Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -933,11 +938,10 @@ deploy:                                //部署的设置
 
 
 Node.js (Node.js 版本需不低于 8.10，建议使用 Node.js 10.0 及以上版本)  
-
-
-
 Git  
 
+
+ 
                         
                     </div>
                     <div class="publish-info">

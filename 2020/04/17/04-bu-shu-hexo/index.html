@@ -450,7 +450,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-17
+                    2020-04-23
                 </div>
                 
 
@@ -480,7 +480,8 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="部署HEXO"><a href="#部署HEXO" class="headerlink" title="部署HEXO"></a>部署HEXO</h2><h3 id="一、-部署到GitHub"><a href="#一、-部署到GitHub" class="headerlink" title="一、 部署到GitHub"></a>一、 部署到GitHub</h3><h4 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1. 准备工作"></a>1. 准备工作</h4><p>  1）如果目前有意搭建自己的个人博客，而此前没有GitHub账号，点击此处前往GitHub官网注册一个GitHub账号。账号注册流程就不在此处展示操作了，请自行注册。  </p>
-<p>  2）注册完成后，新建一个公开仓库，仓库名称格式为<code>your_username.github.id</code>。例如我的GitHub的仓库名为<code>panakot</code>,那么生成的仓库地址名称就是panakot.github.io。<br><img src="GitHub_Repository_creaate.png" alt=""></p>
+<p>  2）注册完成后，新建一个公开仓库，仓库名称格式为<code>your_username.github.id</code>。例如我的GitHub的仓库名为<code>panakot</code>,那么生成的仓库地址名称就是panakot.github.io。  </p>
+<p><img src="GitHub_Repository_creaate.png" alt=""></p>
 <p>  3）创建完成后，建议用记事本记录仓库的HTTPS/SSH地址，后期设置<code>_config.yml</code>会用上。该仓库的HTTPS的一般格式为<code>https://github.com/your_username/your_reponame.github.io.git</code>;SSH的一般格式为<code>git@github.com:your_username/your_reponame.github.io.git</code>。</p>
 <h4 id="2-安装部署插件"><a href="#2-安装部署插件" class="headerlink" title="2. 安装部署插件"></a>2. 安装部署插件</h4><pre><code>$ npm install hexo-deployer-git --save
 $ npm install hexo-server --save   </code></pre><h4 id="3-配置Git"><a href="#3-配置Git" class="headerlink" title="3. 配置Git"></a>3. 配置Git</h4><p>  如果你只是安装好了 Git 但没有配置过你的 Git ，那么现在需要做的第一件事情就是设置你的 Git 用户名和邮箱。 在 Git Bash 中执行以下两条命令配置你的用户名和邮箱，这里建议用户名和邮箱与你的 GitHub 用户名和邮箱保持一致。   </p>
@@ -488,7 +489,7 @@ $ npm install hexo-server --save   </code></pre><h4 id="3-配置Git"><a href="#3
 $ git config --global user.email Your_email@example.com   </code></pre><blockquote>
 <p><font size="4" color="FF0033">提醒</font><br>每次 Git 提交时都会附带这两条信息，用于记录是谁提交的更新，并且会随更新内容一起被记录到历史记录中。简单说，是用来标记的你的身份的</p>
 </blockquote>
-<p>每次 Git 提交时都会附带这两条信息，用于记录是谁提交的更新，并且会随更新内容一起被记录到历史记录中。简单说，是用来标记的你的身份的</p>
+<p>  每次 Git 提交时都会附带这两条信息，用于记录是谁提交的更新，并且会随更新内容一起被记录到历史记录中。简单说，是用来标记的你的身份的。    </p>
 <h4 id="4-配置站点-config-yml文件"><a href="#4-配置站点-config-yml文件" class="headerlink" title="4. 配置站点_config.yml文件"></a>4. 配置站点<code>_config.yml</code>文件</h4><p>  用记事本或Sublime Text3、Visual Studio Code打开，拉到文末，找到<code>deploy：</code>。这里就会用到我建议使用记事本记录仓库的SSH地址，需要修改的配置参考如下：   </p>
 <pre><code>deploy:
   type: git   # 类型填git
@@ -505,7 +506,7 @@ $ git config --global user.email Your_email@example.com   </code></pre><blockquo
 # 列出 .ssh 目录中的文件（如果有）</code></pre><p>  ③ 检查目录列表以查看是否已经有SSH公钥。默认情况下，公钥的文件名是以下之一：  </p>
 <pre><code>★ id_rsa.pub
 ★ id_ecdsa.pub
-★ id_ed25519.pub  </code></pre><p>  如果您没有现有的公钥和私钥对，或者不希望使用任何可用于连接到GitHub的密钥对，那么请生成一个新的SSH密钥。  </p>
+★ id_ed233617.pub  </code></pre><p>  如果您没有现有的公钥和私钥对，或者不希望使用任何可用于连接到GitHub的密钥对，那么请生成一个新的SSH密钥。  </p>
 <p>  如果您看到要用于连接到GitHub的列出的现有公钥和私钥对（例如id_rsa.pub和id_rsa），则可以将SSH密钥添加到ssh-agent。  </p>
 <p>  <strong>2）生成新SSH密钥</strong>  </p>
 <p>  ① Windows打开Git Base Here,Mac/Linux打开Terminal（终端）。   </p>
@@ -573,12 +574,12 @@ $ git config --global user.email Your_email@example.com   </code></pre><blockquo
 </tr>
 </tbody></table>
 <p>  2) 打开仓库，点击设置，找到GitHub Pages项目，修改Custom domain选项的值为您自定义的域名（注意此处不需要填写http/https://等前缀）。  </p>
-<p><img src="" alt=""></p>
+<p><img src="718.png" alt=""><br><img src="719.png" alt=""><br><img src="720.png" alt="">  </p>
 <p>  3）勾选Custom domain选项下的Enforce HTTPS选项，强制开启https。如果遇到Enforce HTTPS选项无法打开，可以稍等一会再尝试。  </p>
 <blockquote>
 <p><font size="4" color="339933">提醒</font><br>同时需要在本地的 source 目录新建一个 CNAME 文件，内容为你的自定义域名（不用带http | https://等前缀）。否则无法使用自定义域名功能（ hexo d 生成的文件没有 CNAME 文件，导致仓库的自定域名设置失效）。</p>
 </blockquote>
-<p>  如果出现以下错误提示，请参照上面的提醒操作，在本地source目录新建一个CNAME的文件，注意没有任何后缀格式，然后用记事本打开，输入您的个性化域名，如<a href="http://www.baihu.com或baihu.com。最后使用`hexo" target="_blank" rel="noopener">www.baihu.com或baihu.com。最后使用`hexo</a> d`重新将本地的博客文件上传到GitHub Pages。  </p>
+<p>  如果出现以下错误提示，请参照上面的提醒操作，在本地source目录新建一个CNAME的文件，注意没有任何后缀格式，然后用记事本打开，输入您的个性化域名，如<a href="http://www.baihu.com" target="_blank" rel="noopener">www.baihu.com</a> 或 baihu.com。最后使用 <code>hexo d</code> 重新将本地的博客文件上传到GitHub Pages。  </p>
 <p><img src="GitHub_Pages_CNAME_ERROR.png" alt=""></p>
 <p>  <font size="4">到这里，您的网站就部署完成了，后期就可以开始写文章、修改主题、优化网站等操作了。下面的文章将如何教会您完成上面的操作。让我们继续学习吧。</font></p>
 <script>
@@ -884,9 +885,10 @@ $ git config --global user.email Your_email@example.com   </code></pre><blockquo
                     <div class="summary block-with-text">
                         
                             配置Hexo
-## 建立网站 
+## 建立网站  
+
  安装好 Hexo 后即可建立你的网站。这里整理两种方式：  
-  ① 在某盘符新建一个文件夹，命名定义自己喜欢的、方便的。然后鼠标双击进入文件夹，通过鼠标右键，点击" Git Base Here "，打开当
+  ① 在某盘符新建一个文件夹，命名定义自己喜欢的、方便的。然后鼠标双击进入文件夹，通过鼠标右键，点击” Git Base Here “，打
                         
                     </div>
                     <div class="publish-info">
