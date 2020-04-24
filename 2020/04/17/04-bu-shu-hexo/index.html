@@ -448,21 +448,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-23
+                    2020-04-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.2k
+                    2.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    10 分
                 </div>
                 
 
@@ -582,7 +582,32 @@ $ git config --global user.email Your_email@example.com   </code></pre><blockquo
 <p>  如果出现以下错误提示，请参照上面的提醒操作，在本地source目录新建一个CNAME的文件，注意没有任何后缀格式，然后用记事本打开，输入您的个性化域名，如 <code>www.baihu.com</code> 或 <code>baihu.com</code> 。最后使用 <code>hexo d</code> 重新将本地的博客文件上传到GitHub Pages。  </p>
 <p><img src="GitHub_Pages_CNAME_ERROR.png" alt=""></p>
 <p>  <font size="4">到这里，您的网站就部署完成了，后期就可以开始写文章、修改主题、优化网站等操作了。下面的文章将如何教会您完成上面的操作。让我们继续学习吧。</font>  </p>
-<h3 id="二、-部署到Coding"><a href="#二、-部署到Coding" class="headerlink" title="二、 部署到Coding"></a>二、 部署到Coding</h3><h3 id="三、-部署到云服务器"><a href="#三、-部署到云服务器" class="headerlink" title="三、 部署到云服务器"></a>三、 部署到云服务器</h3><h3 id="四、-部署到码云"><a href="#四、-部署到码云" class="headerlink" title="四、 部署到码云"></a>四、 部署到码云</h3><h3 id="五、-部署到Netlify"><a href="#五、-部署到Netlify" class="headerlink" title="五、 部署到Netlify"></a>五、 部署到Netlify</h3><script>
+<h3 id="二、-部署到Coding"><a href="#二、-部署到Coding" class="headerlink" title="二、 部署到Coding"></a>二、 部署到Coding</h3><p>  好几次碰上GitHub出现问题，目前基于Hexo+GitHub搭建博客后，给自己的个人感受就是：打开博客网站超慢，网站加载要等好久，这样不利于博客对众带来访问的便利。因此，就滋生出怎么提升个人博客的访问速度。上网查询了多种方式，将资料统一收录整理到此文章。这里将一一介绍部署到Coding、云服务器、Netlify、码云（Gitee)。  </p>
+<p>  那下面就介绍部署到Coding，部署到云服务器、Netlify、码云（Gitee)请往下阅读。   </p>
+<h4 id="1-什么是Coding"><a href="#1-什么是Coding" class="headerlink" title="1.什么是Coding?"></a>1.什么是Coding?</h4><p>  <a href="Coding.net">Coding.net</a> 是一个面向开发者的云端开发平台,提供 Git/SVN 代码托管、任务管理、在线 WebIDE、Cloud Studio、开发协作、文件管理、Wiki 管理、提供个人服务及企业。</p>
+<h4 id="2-准备工作"><a href="#2-准备工作" class="headerlink" title="2.准备工作"></a>2.准备工作</h4><p>  确认自己的Coding账号密码；如果没有账号，请点此前往 <a href="coding.net">Coding</a>注册Coding账号。  </p>
+<h4 id="3-部署到Coding的好处"><a href="#3-部署到Coding的好处" class="headerlink" title="3.部署到Coding的好处"></a>3.部署到Coding的好处</h4><p>  部署到 Coding Pages 的好处：国内访问速度更快，可以提交百度收录（GitHub 禁止了百度的爬取）  </p>
+<h4 id="4-部署步骤指导"><a href="#4-部署步骤指导" class="headerlink" title="4.部署步骤指导"></a>4.部署步骤指导</h4><p> 1）创建项目  </p>
+<p>  目前个人版即将下线，2019 年 12 月 25 日，CODING 个人版与腾讯云开发者平台升级至全新 CODING。也就是说，这两个平台回合并成 CODING 了。  </p>
+<p>  登录Coding  </p>
+<p><img src="001.png" alt="">  </p>
+<p>  新建项目,选择适合自己的模板，这里我选择DevOps项目。创建一个仓库，仓库名格式为 your_username.coding.me 例如你的 CODING 用户名 (username) 是 panakot ，那么你的仓库名称就应该是 panakot.coding.me    </p>
+<p><img src="002.png" alt=""><br><img src="003.png" alt=""></p>
+<p>  填写项目基本信息  </p>
+<p><img src="004.png" alt=""></p>
+<p>  创建完成后记下该仓库的 HTTPS/SSH 地址 一般格式为 <a href="https://coding.net/your_username/your_reponame.git" target="_blank" rel="noopener">https://coding.net/your_username/your_reponame.git</a> 在下一步会用到。   </p>
+<p><img src="005.png" alt=""></p>
+<p> 2) 配置_config.yml  </p>
+<p>  将代码上传到Coding，这里我们选择ssh。  </p>
+<p> 3) 将公钥添加到Coding  </p>
+<p>  鼠标移动到个人头像，点击“个人设置”，选择“SSH公钥”，点击“新增公钥”，自定义公钥名称，然后将公钥信息复制粘贴到此处。  </p>
+<p><img src="007.png" alt=""><br><img src="008.png" alt=""></p>
+<p> 4） 测试连接Coding  </p>
+<blockquote>
+<p>ssh -T <a href="mailto:git@e.coding.net">git@e.coding.net</a>  </p>
+</blockquote>
+<p> 5）将代码上传到Coding  </p>
+<h3 id="三、-部署到云服务器"><a href="#三、-部署到云服务器" class="headerlink" title="三、 部署到云服务器"></a>三、 部署到云服务器</h3><h3 id="四、-部署到码云"><a href="#四、-部署到码云" class="headerlink" title="四、 部署到码云"></a>四、 部署到码云</h3><h3 id="五、-部署到Netlify"><a href="#五、-部署到Netlify" class="headerlink" title="五、 部署到Netlify"></a>五、 部署到Netlify</h3><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -1132,7 +1157,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
           <br>
           
           &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-              class="white-color">18.1k</span>&nbsp;字
+              class="white-color">18.7k</span>&nbsp;字
           
           
           
