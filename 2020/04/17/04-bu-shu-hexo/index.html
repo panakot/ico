@@ -448,21 +448,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-25
+                    2020-04-30
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.5k
+                    4.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    13 分
+                    17 分
                 </div>
                 
 
@@ -648,20 +648,85 @@ $ git config --global user.email Your_email@example.com   </code></pre><blockquo
 <blockquote>
 <p>提醒<br>出于 SEO 的考虑，我们建议您绑定一个 www 域名即可，如果您使用的域名 DNS 解析服务不支持添加 CNAME 记录，建议更换 Nameservers 到其他支持该功能的域名提供商（如阿里云、新网、腾讯云、华为云等）。如果遇到自定义域名失效，请参照前文 GitHub 配置方案解决。</p>
 </blockquote>
-<h3 id="三、-部署到码云"><a href="#三、-部署到码云" class="headerlink" title="三、 部署到码云"></a>三、 部署到码云</h3><p>  前往<a href="https://gitee.com/" target="_blank" rel="noopener">码云官网</a>注册一个账号，有账号不清楚操作的，请先登录码云。  </p>
+<h3 id="三、-部署到码云"><a href="#三、-部署到码云" class="headerlink" title="三、 部署到码云"></a>三、 部署到码云</h3><p>  1.前往<a href="https://gitee.com/" target="_blank" rel="noopener">码云官网</a>注册一个账号，有账号不清楚操作的，请先登录码云。  </p>
 <p><img src="015.png" alt=""></p>
-<p>点击头像傍边的 + ，新建仓库  </p>
+<p>  2.点击头像傍边的 + ，新建仓库  </p>
 <p><img src="016.png" alt=""></p>
-<p>在仓库页面填写相关信息，根据自己的情况而定。这里我不多选择，只是为了存放我网站的代码。  </p>
+<p>  3.在仓库页面填写相关信息，根据自己的情况而定。这里我不多选择，只是为了存放我网站的代码。  </p>
 <p><img src="017.png" alt=""> </p>
-<p>创建好后，点击右边的<code>克隆/下载</code>按钮，然后复制ssh地址,用记事本记录SSH地址，等下会使用到。 </p>
+<p>  4.创建好后，点击右边的<code>克隆/下载</code>按钮，然后复制ssh地址,用记事本记录SSH地址，等下会使用到。 </p>
 <p><img src="018.png" alt=""></p>
-<p>将公钥添加到码云Gitee，点击个人头像中的设置，在安全设置里的选择SSH公钥，然后定义公钥标题，</p>
+<p>  5.将公钥添加到码云Gitee，点击个人头像中的设置，在安全设置里的选择SSH公钥，然后定义公钥标题，</p>
 <p><img src="019.png" alt=""> </p>
-<p>编辑博客根目录下_config.yml文件，找到deploy,在repository: 后面添加码云的仓库ssh地址。  </p>
+<p>  6.编辑博客根目录下_config.yml文件，找到deploy,在repository: 后面添加码云的仓库ssh地址。  </p>
 <p><img src="020.png" alt=""></p>
-<p>将本地博客文件上传到码云Gitee的仓库。使用一下命令：  </p>
-<pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d </code></pre><h3 id="四、-部署到云服务器"><a href="#四、-部署到云服务器" class="headerlink" title="四、 部署到云服务器"></a>四、 部署到云服务器</h3><script>
+<p>  7.将本地博客文件上传到码云Gitee的仓库。使用一下命令：  </p>
+<pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d </code></pre><p>  8.部署Gitee Pages服务  </p>
+<p>  9.部署目录填写<code>/public</code>，点击启动；如果需要自定义域名和支持https以及自动推送部署服务的话，需要每年支持99元。  </p>
+<p><img src="021.png" alt=""><br><img src="022.png" alt=""></p>
+<p>  10.我首先试用一个月，将文档补全。自定义域名和开启https。填写自定义域名，并配置域名证书，如果没有域名证书，可以去阿里云申请个人版的SSL证书，或者在码云Gitee点击“配置域名证书”下点击“免费申请https证书”会自动跳转到免费申请证书的网站，输入自定义域名的网址。然后在输入自己的邮箱接收https证书。  </p>
+<p><img src="023.png" alt=""><br><img src="024.png" alt=""><br><img src="025.png" alt=""><br><img src="026.png" alt=""><br><img src="027.png" alt=""></p>
+<h3 id="四、-部署到云服务器"><a href="#四、-部署到云服务器" class="headerlink" title="四、 部署到云服务器"></a>四、 部署到云服务器</h3><p>  先介绍一下我服务器的环境和需要准备的东西。  </p>
+<p> 云服务器配置：  </p>
+<ul>
+<li>系统  <font size="2" color="orange">CentOS 8.0 64bit</font>  </li>
+<li>配置  <font size="2" color="orange">突发性能实例 t5/1 vCPU/1GB/1Mbps</font>  </li>
+</ul>
+<p> 网站在运行服务器需要的环境  </p>
+<ul>
+<li>环境  <font size="2" color="orange">git , Nginx</font>  </li>
+<li>使用<code>git</code>自动化部署发布  </li>
+</ul>
+<h4 id="emsp-1-云服务器更新"><a href="#emsp-1-云服务器更新" class="headerlink" title=" 1.云服务器更新"></a> 1.云服务器更新</h4><blockquote>
+<p>yum -y update </p>
+</blockquote>
+<h4 id="emsp-2-云服务器Git安装及配置"><a href="#emsp-2-云服务器Git安装及配置" class="headerlink" title=" 2.云服务器Git安装及配置"></a> 2.云服务器Git安装及配置</h4><p>  ⑴ 安装依赖库和编译工具  </p>
+<blockquote>
+<p>yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel gcc perl-ExtUtils-MakeMaker  </p>
+</blockquote>
+<p>  ⑵ 下载Git  </p>
+<p>  选择一个目录来存放下载下来的 git 安装包。这里选择了/usr/local/src 目录   </p>
+<pre><code>cd /usr/local/src</code></pre><p>  到官网找一个新版稳定的源码包下载到 /usr/local/src 文件夹里  </p>
+<pre><code>wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.26.2.tar.gz</code></pre><p>  下载完安装包后，可以查询当前服务器是否安装过git软件，如果版本较旧，可以执行该命令<code>yum remove git</code>进行卸载。  </p>
+<p>  ⑶ 解压编译git  </p>
+<p>  ① 在当前目录下解压<code>git-2.26.2.tar.gz</code>  </p>
+<pre><code>tar -zxvf git-2.26.2.tar.gz  </code></pre><p>  ② 进入git-2.26.2目录下  </p>
+<pre><code>cd git-2.26.2  </code></pre><p>  ③ 执行编译  </p>
+<pre><code>make all prefix=/usr/local/git  </code></pre><p>  ④ 安装git到<code>/usr/local/git</code>目录下  </p>
+<pre><code>make install prefix=/usr/local/git</code></pre><p>  ⑷ 配置git环境变量  </p>
+<p>  ① 将git加入PATH目录中  </p>
+<pre><code>echo 'export PATH=$PATH:/usr/local/git/bin' &gt;&gt; /etc/bashrc</code></pre><p>  ② 使git环境变量生效  </p>
+<pre><code>source /etc/bashrc</code></pre><p>  ⑸ 查看git版本  </p>
+<blockquote>
+<p> git –version</p>
+</blockquote>
+<p>  如果此时能查看到 git 的版本号，说明我们已经安装成功了。  </p>
+<p>  ⑹ 创建Git仓库，用于存放博客网站资源。</p>
+<p>  ①在<code>Home/git</code>的目录下，创建一个名为<code>panakot</code>的裸仓库（bare repo）。如果没有<code>home/git</code>目录，需要先创建该目录；然后修改该目录的所有权和用户权限。  </p>
+<p>  创建目录  </p>
+<pre><code>mkdir /home/git</code></pre><p>  修改该目录所有权和用户权限  </p>
+<pre><code>chown -R $USER:$USER /home/git/  
+chmod -R 755 /home/git/   </code></pre><p>  在<code>/home/git</code> 下创建一个裸Git仓库  </p>
+<pre><code>cd /home/git/
+git init --bare panakot.git  </code></pre><p>  ② 创建一个新的Git钩子，用户自动部署。</p>
+<p>  在<code>/home/git/panakot.git</code>下，有一个自动生成的<code>hooks</code>文件夹。需要在里面新建一个钩子文件<code>post-receive</code>。  </p>
+<pre><code>vim /home/git/hexoBlog.git/hooks/post-receive  </code></pre><p>  按<code>i</code>键进入文件的编辑模式，在该文件中添加两行代码（将下面的代码复制粘贴进去），指定Git的工作树（源代码）和Git目录（配置文件等）  </p>
+<pre><code>#!/bin/bash git --work-tree=/home/panakot --git-dir=/home/git/panakot.git checkout -f  </code></pre><p>  然后，按<code>ECS</code>键退出编辑模式，按住<code>Shift + :</code>输入：<code>wq！</code>保存并退出。  </p>
+<p>  修改文件权限，使得其可以执行。  </p>
+<pre><code>chmod +x /home/git/panakot.git/hooks/post-receive  </code></pre><p>  到了这里，服务器的git仓库就算是完全搭建好了。</p>
+<h4 id="3-云服务器端配置Nginx"><a href="#3-云服务器端配置Nginx" class="headerlink" title="3.云服务器端配置Nginx"></a>3.云服务器端配置Nginx</h4><p>⑴ 安装Nginx服务器  </p>
+<pre><code>yum install -y nginx  </code></pre><p>⑵ 启动Nginx服务  </p>
+<pre><code>service nginx start  </code></pre><p>⑶ 测试Nginx服务器  </p>
+<pre><code>wget http://127.0.0.1  </code></pre><p>⑷ 能够正常获取以下欢迎页面，说明Nginx服务器安装成功。  </p>
+<pre><code>--2020-04-30 15:00:23--  http://127.0.0.1/
+Connecting to 127.0.0.1:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4833 (4.7K) [text/html]
+Saving to: ‘index.html’
+
+100%[===================================================&gt;] 4,833       --.-K/s   in 0s      
+
+2020-04-30 15:00:23 (650 MB/s) - ‘index.html’ saved [4833/4833]  </code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -1211,7 +1276,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
           <br>
           
           &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-              class="white-color">19.4k</span>&nbsp;字
+              class="white-color">20.4k</span>&nbsp;字
           
           
           
