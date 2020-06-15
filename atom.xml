@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Panakot 吉舒斋</title>
+  <title>吉舒斋</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.panakot.com/"/>
-  <updated>2020-04-23T08:12:20.863Z</updated>
-  <id>https://www.panakot.com/</id>
+  <link href="https://www.panakot.cn/"/>
+  <updated>2020-06-15T02:44:40.383Z</updated>
+  <id>https://www.panakot.cn/</id>
   
   <author>
     <name>Panakot</name>
@@ -17,9 +17,59 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>HCIA-Cloud云计算简介</title>
+    <link href="https://www.panakot.cn/2020/06/15/hcia-cloud-yun-ji-suan-jian-jie/"/>
+    <id>https://www.panakot.cn/2020/06/15/hcia-cloud-yun-ji-suan-jian-jie/</id>
+    <published>2020-06-15T01:34:59.000Z</published>
+    <updated>2020-06-15T02:44:40.383Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;HICA-Cloud-云计算简介&quot;&gt;&lt;a href=&quot;#HICA-Cloud-云计算简介&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo——怎么将本地项目上传到GitHub仓库？</title>
+    <link href="https://www.panakot.cn/2020/05/13/hexo-zen-me-jiang-ben-di-xiang-mu-shang-chuan-dao-github-cang-ku/"/>
+    <id>https://www.panakot.cn/2020/05/13/hexo-zen-me-jiang-ben-di-xiang-mu-shang-chuan-dao-github-cang-ku/</id>
+    <published>2020-05-13T04:34:39.000Z</published>
+    <updated>2020-05-14T01:24:41.780Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Hexo——怎么将本地项目上传到GitHub仓库？&quot;&gt;&lt;a href=&quot;#Hexo——怎么将本地项目上传到GitHub仓库？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="GitHub" scheme="https://www.panakot.cn/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="https://www.panakot.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>04-部署Hexo</title>
-    <link href="https://www.panakot.com/2020/04/17/04-bu-shu-hexo/"/>
-    <id>https://www.panakot.com/2020/04/17/04-bu-shu-hexo/</id>
+    <link href="https://www.panakot.cn/2020/04/17/04-bu-shu-hexo/"/>
+    <id>https://www.panakot.cn/2020/04/17/04-bu-shu-hexo/</id>
     <published>2020-04-17T08:31:54.000Z</published>
     <updated>2020-04-23T08:12:20.863Z</updated>
     
@@ -41,8 +91,8 @@
   
   <entry>
     <title>03-配置Hexo</title>
-    <link href="https://www.panakot.com/2020/04/17/03-pei-zhi-hexo/"/>
-    <id>https://www.panakot.com/2020/04/17/03-pei-zhi-hexo/</id>
+    <link href="https://www.panakot.cn/2020/04/17/03-pei-zhi-hexo/"/>
+    <id>https://www.panakot.cn/2020/04/17/03-pei-zhi-hexo/</id>
     <published>2020-04-17T08:29:04.000Z</published>
     <updated>2020-04-23T08:10:42.013Z</updated>
     
@@ -66,8 +116,8 @@
   
   <entry>
     <title>02-安装Hexo</title>
-    <link href="https://www.panakot.com/2020/04/17/02-an-zhuang-hexo/"/>
-    <id>https://www.panakot.com/2020/04/17/02-an-zhuang-hexo/</id>
+    <link href="https://www.panakot.cn/2020/04/17/02-an-zhuang-hexo/"/>
+    <id>https://www.panakot.cn/2020/04/17/02-an-zhuang-hexo/</id>
     <published>2020-04-17T08:27:15.000Z</published>
     <updated>2020-04-23T05:05:13.300Z</updated>
     
@@ -89,8 +139,8 @@
   
   <entry>
     <title>01-认识HEXO</title>
-    <link href="https://www.panakot.com/2020/04/17/01-ren-shi-hexo/"/>
-    <id>https://www.panakot.com/2020/04/17/01-ren-shi-hexo/</id>
+    <link href="https://www.panakot.cn/2020/04/17/01-ren-shi-hexo/"/>
+    <id>https://www.panakot.cn/2020/04/17/01-ren-shi-hexo/</id>
     <published>2020-04-17T08:22:22.000Z</published>
     <updated>2020-04-23T05:10:59.851Z</updated>
     
@@ -112,10 +162,10 @@
   
   <entry>
     <title>H3CSE-Security(GB0-550)-第二章 Web应用防火墙[WAF]</title>
-    <link href="https://www.panakot.com/2020/03/24/h3cse-security-gb0-550-di-er-zhang-web-ying-yong-fang-huo-qiang-waf/"/>
-    <id>https://www.panakot.com/2020/03/24/h3cse-security-gb0-550-di-er-zhang-web-ying-yong-fang-huo-qiang-waf/</id>
+    <link href="https://www.panakot.cn/2020/03/24/h3cse-security-gb0-550-di-er-zhang-web-ying-yong-fang-huo-qiang-waf/"/>
+    <id>https://www.panakot.cn/2020/03/24/h3cse-security-gb0-550-di-er-zhang-web-ying-yong-fang-huo-qiang-waf/</id>
     <published>2020-03-24T15:10:47.000Z</published>
-    <updated>2020-04-23T08:05:02.799Z</updated>
+    <updated>2020-05-14T02:56:12.292Z</updated>
     
     <summary type="html">
     
@@ -123,7 +173,7 @@
       
         
         
-          &lt;h1 id=&quot;H3CSE-Security-GB0-550-学习笔记&quot;&gt;&lt;a href=&quot;#H3CSE-Security-GB0-550-学习笔记&quot; class=&quot;headerlink&quot;
+          &lt;h3 id=&quot;第二章-Web应用防火墙（WAF&quot;&gt;&lt;a href=&quot;#第二章-Web应用防火墙（WAF&quot; class=&quot;headerlink&quot; title=&quot;第二章 Web应用防火墙（WAF)&quot;&gt;&lt;/a&gt;&lt;center&gt;第二章
         
       
     
@@ -135,10 +185,10 @@
   
   <entry>
     <title>H3CSE-Security(GB0-550)-第一章 部署内容安全概述</title>
-    <link href="https://www.panakot.com/2020/03/24/h3cse-security-gb0-550-di-yi-zhang-bu-shu-nei-rong-an-quan-gai-shu/"/>
-    <id>https://www.panakot.com/2020/03/24/h3cse-security-gb0-550-di-yi-zhang-bu-shu-nei-rong-an-quan-gai-shu/</id>
+    <link href="https://www.panakot.cn/2020/03/24/h3cse-security-gb0-550-di-yi-zhang-bu-shu-nei-rong-an-quan-gai-shu/"/>
+    <id>https://www.panakot.cn/2020/03/24/h3cse-security-gb0-550-di-yi-zhang-bu-shu-nei-rong-an-quan-gai-shu/</id>
     <published>2020-03-24T14:44:44.000Z</published>
-    <updated>2020-04-23T07:58:23.542Z</updated>
+    <updated>2020-05-14T02:57:40.670Z</updated>
     
     <summary type="html">
     
@@ -146,7 +196,7 @@
       
         
         
-          &lt;h1 id=&quot;H3CSE-Security-GB0-550-学习笔记&quot;&gt;&lt;a href=&quot;#H3CSE-Security-GB0-550-学习笔记&quot; class=&quot;headerlink&quot;
+          &lt;h3 id=&quot;第一章-部署内容安全概述&quot;&gt;&lt;a href=&quot;#第一章-部署内容安全概述&quot; class=&quot;headerlink&quot; title=&quot;第一章 部署内容安全概述&quot;&gt;&lt;/a&gt;&lt;center&gt;第一章 部署内容安全概述&lt;/center&gt;&lt;/h3&gt;&lt;h4
         
       
     
@@ -158,8 +208,8 @@
   
   <entry>
     <title>17-Windows Server 2012 R2——Hyper-V搭建</title>
-    <link href="https://www.panakot.com/2018/09/28/17-windows-server-2012-r2-hyper-v-da-jian/"/>
-    <id>https://www.panakot.com/2018/09/28/17-windows-server-2012-r2-hyper-v-da-jian/</id>
+    <link href="https://www.panakot.cn/2018/09/28/17-windows-server-2012-r2-hyper-v-da-jian/"/>
+    <id>https://www.panakot.cn/2018/09/28/17-windows-server-2012-r2-hyper-v-da-jian/</id>
     <published>2018-09-28T12:17:50.000Z</published>
     <updated>2020-04-23T09:50:40.979Z</updated>
     
@@ -185,8 +235,8 @@
   
   <entry>
     <title>16-Windows Server 2012 R2——虚拟专用网VPN配置</title>
-    <link href="https://www.panakot.com/2018/09/27/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/"/>
-    <id>https://www.panakot.com/2018/09/27/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/</id>
+    <link href="https://www.panakot.cn/2018/09/27/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/"/>
+    <id>https://www.panakot.cn/2018/09/27/16-windows-server-2012-r2-xu-ni-zhuan-yong-wang-vpn-pei-zhi/</id>
     <published>2018-09-27T10:42:11.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
     
@@ -212,8 +262,8 @@
   
   <entry>
     <title>15-Windows Server 2012 R2——网络地址转换NAT</title>
-    <link href="https://www.panakot.com/2018/09/26/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/"/>
-    <id>https://www.panakot.com/2018/09/26/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/</id>
+    <link href="https://www.panakot.cn/2018/09/26/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/"/>
+    <id>https://www.panakot.cn/2018/09/26/15-windows-server-2012-r2-wang-luo-di-zhi-zhuan-huan-nat/</id>
     <published>2018-09-26T14:20:10.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
     
@@ -239,10 +289,10 @@
   
   <entry>
     <title>14-Windows Server 2012 R2——路由器与网桥配置</title>
-    <link href="https://www.panakot.com/2018/09/25/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/"/>
-    <id>https://www.panakot.com/2018/09/25/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/</id>
+    <link href="https://www.panakot.cn/2018/09/25/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/"/>
+    <id>https://www.panakot.cn/2018/09/25/14-windows-server-2012-r2-lu-you-qi-yu-wang-qiao-pei-zhi/</id>
     <published>2018-09-25T11:16:40.000Z</published>
-    <updated>2020-04-23T09:52:12.926Z</updated>
+    <updated>2020-05-14T02:24:13.396Z</updated>
     
     <summary type="html">
     
@@ -266,8 +316,8 @@
   
   <entry>
     <title>13-Windows Server 2012 R2——SMTP服务器配置</title>
-    <link href="https://www.panakot.com/2018/09/24/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/"/>
-    <id>https://www.panakot.com/2018/09/24/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/</id>
+    <link href="https://www.panakot.cn/2018/09/24/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/"/>
+    <id>https://www.panakot.cn/2018/09/24/13-windows-server-2012-r2-smtp-fu-wu-qi-pei-zhi/</id>
     <published>2018-09-24T00:28:04.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
     
@@ -293,8 +343,8 @@
   
   <entry>
     <title>12-Windows Server 2012 R2——IIS服务器搭建</title>
-    <link href="https://www.panakot.com/2018/09/23/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.com/2018/09/23/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/</id>
+    <link href="https://www.panakot.cn/2018/09/23/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/"/>
+    <id>https://www.panakot.cn/2018/09/23/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/</id>
     <published>2018-09-23T09:01:22.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
     
@@ -320,8 +370,8 @@
   
   <entry>
     <title>11-Windows Server 2012 R2——Radius服务器搭建</title>
-    <link href="https://www.panakot.com/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.com/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/</id>
+    <link href="https://www.panakot.cn/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/"/>
+    <id>https://www.panakot.cn/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/</id>
     <published>2018-09-22T03:19:37.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
     
@@ -347,8 +397,8 @@
   
   <entry>
     <title>10-Windows Server 2012 R2——故障转移集群配置</title>
-    <link href="https://www.panakot.com/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/"/>
-    <id>https://www.panakot.com/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/</id>
+    <link href="https://www.panakot.cn/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/"/>
+    <id>https://www.panakot.cn/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/</id>
     <published>2018-09-21T06:32:29.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
     
@@ -374,8 +424,8 @@
   
   <entry>
     <title>09-Windows Server 2012 R2——文件服务器</title>
-    <link href="https://www.panakot.com/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/"/>
-    <id>https://www.panakot.com/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/</id>
+    <link href="https://www.panakot.cn/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/"/>
+    <id>https://www.panakot.cn/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/</id>
     <published>2018-09-20T12:43:02.000Z</published>
     <updated>2020-04-23T09:52:12.927Z</updated>
     
@@ -401,8 +451,8 @@
   
   <entry>
     <title>08-Windows Server 2012 R2——Ser-U部署</title>
-    <link href="https://www.panakot.com/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/"/>
-    <id>https://www.panakot.com/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/</id>
+    <link href="https://www.panakot.cn/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/"/>
+    <id>https://www.panakot.cn/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/</id>
     <published>2018-09-19T13:12:23.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
     
@@ -428,8 +478,8 @@
   
   <entry>
     <title>07-Windows Server 2012 R2——FTP服务器搭建</title>
-    <link href="https://www.panakot.com/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.com/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/</id>
+    <link href="https://www.panakot.cn/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/"/>
+    <id>https://www.panakot.cn/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/</id>
     <published>2018-09-17T23:46:47.000Z</published>
     <updated>2020-04-23T09:52:12.927Z</updated>
     
@@ -455,8 +505,8 @@
   
   <entry>
     <title>06-Windows Server 2012 R2——DHCP服务器搭建</title>
-    <link href="https://www.panakot.com/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.com/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/</id>
+    <link href="https://www.panakot.cn/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/"/>
+    <id>https://www.panakot.cn/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/</id>
     <published>2018-09-17T15:27:56.000Z</published>
     <updated>2020-04-23T09:52:12.928Z</updated>
     
@@ -471,56 +521,6 @@
           .forEach(el =&gt; {
             if (!el.dataset.src) { return; }
        
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>05-Windows Server 2012 R2——DNS服务器搭建</title>
-    <link href="https://www.panakot.com/2018/09/16/05-windows-server-2012-r2-dns-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.com/2018/09/16/05-windows-server-2012-r2-dns-fu-wu-qi-da-jian/</id>
-    <published>2018-09-16T12:11:05.000Z</published>
-    <updated>2020-04-23T09:52:12.927Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>04-Windows Server 2012 R2——AD域控制器搭建及配置教程</title>
-    <link href="https://www.panakot.com/2018/09/15/04-windows-server-2012-r2-ad-yu-kong-zhi-qi-da-jian-ji-pei-zhi-jiao-cheng/"/>
-    <id>https://www.panakot.com/2018/09/15/04-windows-server-2012-r2-ad-yu-kong-zhi-qi-da-jian-ji-pei-zhi-jiao-cheng/</id>
-    <published>2018-09-15T05:26:20.000Z</published>
-    <updated>2020-04-23T09:52:12.927Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Windows-Server-2012-R2搭建AD域及配置教程&quot;&gt;&lt;a href=&quot;#Windows-Server-2012-R2搭建AD域及配置教程&quot; class=&quot;headerlink&quot; title=&quot;Windows Server 2012
         
       
     
