@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.panakot.cn/"/>
-  <updated>2020-06-15T02:44:40.383Z</updated>
+  <updated>2020-06-16T01:43:52.035Z</updated>
   <id>https://www.panakot.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HCIA-Cloud云计算简介</title>
-    <link href="https://www.panakot.cn/2020/06/15/hcia-cloud-yun-ji-suan-jian-jie/"/>
-    <id>https://www.panakot.cn/2020/06/15/hcia-cloud-yun-ji-suan-jian-jie/</id>
-    <published>2020-06-15T01:34:59.000Z</published>
-    <updated>2020-06-15T02:44:40.383Z</updated>
+    <title>HCIA-Cloud-07-云计算发展趋势</title>
+    <link href="https://www.panakot.cn/2020/06/16/hcia-cloud-07-yun-ji-suan-fa-zhan-qu-shi/"/>
+    <id>https://www.panakot.cn/2020/06/16/hcia-cloud-07-yun-ji-suan-fa-zhan-qu-shi/</id>
+    <published>2020-06-16T01:43:52.000Z</published>
+    <updated>2020-06-16T01:43:52.035Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,165 @@
       
         
         
-          &lt;h3 id=&quot;HICA-Cloud-云计算简介&quot;&gt;&lt;a href=&quot;#HICA-Cloud-云计算简介&quot; class=&quot;headerlink&quot;
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HCIA-Cloud-06-FusionCompute介绍</title>
+    <link href="https://www.panakot.cn/2020/06/16/hcia-cloud-06-fusioncompute-jie-shao/"/>
+    <id>https://www.panakot.cn/2020/06/16/hcia-cloud-06-fusioncompute-jie-shao/</id>
+    <published>2020-06-16T01:42:55.000Z</published>
+    <updated>2020-06-16T01:42:55.566Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HCIA-Cloud-05-虚拟化特性介绍</title>
+    <link href="https://www.panakot.cn/2020/06/16/hcia-cloud-05-xu-ni-hua-te-xing-jie-shao/"/>
+    <id>https://www.panakot.cn/2020/06/16/hcia-cloud-05-xu-ni-hua-te-xing-jie-shao/</id>
+    <published>2020-06-16T01:42:04.000Z</published>
+    <updated>2020-06-16T01:42:04.355Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HCIA-Cloud-04-云计算中的存储基础知识</title>
+    <link href="https://www.panakot.cn/2020/06/16/hcia-cloud-04-yun-ji-suan-zhong-de-cun-chu-ji-chu-zhi-shi/"/>
+    <id>https://www.panakot.cn/2020/06/16/hcia-cloud-04-yun-ji-suan-zhong-de-cun-chu-ji-chu-zhi-shi/</id>
+    <published>2020-06-16T01:39:30.000Z</published>
+    <updated>2020-06-16T09:32:26.467Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HCIA-Cloud-03-云计算中的网络基础知识</title>
+    <link href="https://www.panakot.cn/2020/06/16/hcia-cloud-03-yun-ji-suan-zhong-de-wang-luo-ji-chu-zhi-shi/"/>
+    <id>https://www.panakot.cn/2020/06/16/hcia-cloud-03-yun-ji-suan-zhong-de-wang-luo-ji-chu-zhi-shi/</id>
+    <published>2020-06-16T01:39:04.000Z</published>
+    <updated>2020-06-16T01:39:04.204Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HCIA-Cloud-02-计算虚拟化简介</title>
+    <link href="https://www.panakot.cn/2020/06/15/hcia-cloud-02-ji-suan-xu-ni-hua-jian-jie/"/>
+    <id>https://www.panakot.cn/2020/06/15/hcia-cloud-02-ji-suan-xu-ni-hua-jian-jie/</id>
+    <published>2020-06-15T02:51:57.000Z</published>
+    <updated>2020-06-16T01:40:30.269Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;HCIA-Cloud-02-计算虚拟化简介&quot;&gt;&lt;a href=&quot;#HCIA-Cloud-02-计算虚拟化简介&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HCIA-Cloud-01-云计算简介</title>
+    <link href="https://www.panakot.cn/2020/06/15/hcia-cloud-01-yun-ji-suan-jian-jie/"/>
+    <id>https://www.panakot.cn/2020/06/15/hcia-cloud-01-yun-ji-suan-jian-jie/</id>
+    <published>2020-06-15T01:34:59.000Z</published>
+    <updated>2020-06-16T01:41:15.791Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;HICA-Cloud-01-云计算简介&quot;&gt;&lt;a href=&quot;#HICA-Cloud-01-云计算简介&quot; class=&quot;headerlink&quot;
         
       
     
@@ -347,168 +505,6 @@
     <id>https://www.panakot.cn/2018/09/23/12-windows-server-2012-r2-iis-fu-wu-qi-da-jian/</id>
     <published>2018-09-23T09:01:22.000Z</published>
     <updated>2020-04-23T09:52:12.926Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>11-Windows Server 2012 R2——Radius服务器搭建</title>
-    <link href="https://www.panakot.cn/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.cn/2018/09/22/11-windows-server-2012-r2-radius-fu-wu-qi-da-jian/</id>
-    <published>2018-09-22T03:19:37.000Z</published>
-    <updated>2020-04-23T09:52:12.926Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>10-Windows Server 2012 R2——故障转移集群配置</title>
-    <link href="https://www.panakot.cn/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/"/>
-    <id>https://www.panakot.cn/2018/09/21/10-windows-server-2012-r2-gu-zhang-zhuan-yi-ji-qun-pei-zhi/</id>
-    <published>2018-09-21T06:32:29.000Z</published>
-    <updated>2020-04-23T09:52:12.926Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>09-Windows Server 2012 R2——文件服务器</title>
-    <link href="https://www.panakot.cn/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/"/>
-    <id>https://www.panakot.cn/2018/09/20/09-windows-server-2012-r2-wen-jian-fu-wu-qi/</id>
-    <published>2018-09-20T12:43:02.000Z</published>
-    <updated>2020-04-23T09:52:12.927Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>08-Windows Server 2012 R2——Ser-U部署</title>
-    <link href="https://www.panakot.cn/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/"/>
-    <id>https://www.panakot.cn/2018/09/19/08-windows-server-2012-r2-ser-u-bu-shu/</id>
-    <published>2018-09-19T13:12:23.000Z</published>
-    <updated>2020-04-23T09:52:12.926Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>07-Windows Server 2012 R2——FTP服务器搭建</title>
-    <link href="https://www.panakot.cn/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.cn/2018/09/18/07-windows-server-2012-r2-ftp-fu-wu-qi-da-jian/</id>
-    <published>2018-09-17T23:46:47.000Z</published>
-    <updated>2020-04-23T09:52:12.927Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>06-Windows Server 2012 R2——DHCP服务器搭建</title>
-    <link href="https://www.panakot.cn/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/"/>
-    <id>https://www.panakot.cn/2018/09/17/06-windows-server-2012-r2-dhcp-fu-wu-qi-da-jian/</id>
-    <published>2018-09-17T15:27:56.000Z</published>
-    <updated>2020-04-23T09:52:12.928Z</updated>
     
     <summary type="html">
     

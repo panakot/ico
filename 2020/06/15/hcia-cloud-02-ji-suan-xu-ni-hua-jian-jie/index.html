@@ -1,0 +1,1253 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HCIA-Cloud-02-计算虚拟化简介, 吉舒斋">
+    <meta name="description" content="为技术而生，点亮生活">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>HCIA-Cloud-02-计算虚拟化简介 | 吉舒斋</title>
+    <link rel="icon" type="image/png" href="/">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="吉舒斋" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">吉舒斋</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">吉舒斋</div>
+        <div class="logo-desc">
+            
+            为技术而生，点亮生活
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+				<i class="fas fa-fw fa-link"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/panakot/ico" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/panakot/ico" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">HCIA-Cloud-02-计算虚拟化简介</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-06-15
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2020-06-16
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.7k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    13 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h3 id="HCIA-Cloud-02-计算虚拟化简介"><a href="#HCIA-Cloud-02-计算虚拟化简介" class="headerlink" title="HCIA-Cloud-02-计算虚拟化简介"></a><center>HCIA-Cloud-02-计算虚拟化简介</center></h3><h4 id="1-为什么需要虚拟化？"><a href="#1-为什么需要虚拟化？" class="headerlink" title="1.为什么需要虚拟化？"></a>1.为什么需要虚拟化？</h4><p>  ⑴硬件资源没有充分利用，利用率不高，浪费硬件资源；  </p>
+<p>  ⑵应用之间存在冲突，导致应用存在中断，无法提供服务；  </p>
+<h4 id="2-什么是虚拟化？"><a href="#2-什么是虚拟化？" class="headerlink" title="2.什么是虚拟化？"></a>2.什么是虚拟化？</h4><p>  虚拟化是指通过虚拟化技术将一台计算机虚拟成多台逻辑计算机，在一台计算机上同时运行多个逻辑计算机，每个逻辑计算机可运行不同的操作系统，并且应用程序都可以在相互独立的空间运行而互不影响，从而显著提高计算机的工作效率。  </p>
+<blockquote>
+<p>注：一台虚拟机的CPU、内存资源只能来自于同一个物理服务器。  </p>
+</blockquote>
+<h4 id="3-计算虚拟化的发展史"><a href="#3-计算虚拟化的发展史" class="headerlink" title="3.计算虚拟化的发展史"></a>3.计算虚拟化的发展史</h4><p><img src="001.png" alt=""></p>
+<h4 id="4-虚拟化带来的好处"><a href="#4-虚拟化带来的好处" class="headerlink" title="4.虚拟化带来的好处"></a>4.虚拟化带来的好处</h4><p>  1）提高硬件利用率；<br>  2）降低能耗，绿色节能；<br>  3）提高IT运维效率，系统管理人员减少；<br>  4）操作系统和硬件的解耦。  </p>
+<h4 id="5-计算虚拟化中的重要概念"><a href="#5-计算虚拟化中的重要概念" class="headerlink" title="5.计算虚拟化中的重要概念"></a>5.计算虚拟化中的重要概念</h4><p><img src="002.png" alt=""></p>
+<p>  <strong>Guest OS</strong>：虚拟机操作系统，由物理硬件通过虚拟化手段虚拟出来虚拟机安装好的操作系统(Windows、Linux、Unix)；  </p>
+<p>  <strong>Guest Machine</strong>：虚拟机，由物理硬件通过虚拟化软件虚拟出来；  </p>
+<p>  <strong>Hypervisor</strong>：Hypervisor，又称虚拟机监视器（英语：virtual machine monitor，缩写为 VMM），是用来建立与执行虚拟机器的软件、固件或硬件。  </p>
+<p>  <strong>Host OS</strong>：运行在物理主机上的操作系统。  </p>
+<p>  <strong>Host Machine</strong>：物理主机。  </p>
+<h4 id="6-Hypervisor的功能"><a href="#6-Hypervisor的功能" class="headerlink" title="6.Hypervisor的功能"></a>6.Hypervisor的功能</h4><p>  ① 虚拟硬件资源；  </p>
+<p>   VMM利用底层硬件资源来构建一个包含虚拟CPU、内存和外设等的虚拟环境。在这个环境中，Guest OS认为自己运行在一台真是的计算机上，并唯一拥有这台“虚拟”机器上的所有资源。</p>
+<p>  ② 实现对虚拟资源的调度；  </p>
+<p>   VMM可以同时构建多个虚拟机环境，从而允许多个Guest OS并发执行，VMM利用一套策略来有效的调度资源。</p>
+<p>  ③ 提供虚拟化环境的管理接口；  </p>
+<p>   VMM提供一组完备的管理接口，来支持虚拟环境的创建、删除、暂停和迁移等功能。上层的管理程序通过调用VMM提供的管理接口，为用户提供管理界面。</p>
+<h4 id="7-虚拟化的分类"><a href="#7-虚拟化的分类" class="headerlink" title="7.虚拟化的分类"></a>7.虚拟化的分类</h4><p><img src="003.png" alt=""></p>
+<p>  ⑴裸金属虚拟化（I型虚拟化）：Hypervisor直接安装在物理机上，多个虚拟机在Hypervisor上运行。Hypervisor的实现方式就是一个特殊定制的Linux系统。比如XEN。  </p>
+<p>  ⑵宿主虚拟化（II型虚拟化）：物理机上首先安装常规的操作系统。比如Redhat、Ubantu和Windows，Hypervisor作为OS上的一个程序模块运行，并对虚拟机进行管理。比如KVM。  </p>
+<h4 id="8-虚拟化的特点"><a href="#8-虚拟化的特点" class="headerlink" title="8.虚拟化的特点"></a>8.虚拟化的特点</h4><p><img src="004.png" alt=""></p>
+<p>  1）分区：在一个物理服务器上同时运行多个虚拟机；  </p>
+<p>  2）隔离：虚拟机之间互不影响、互不干涉；  </p>
+<p>  3）封装：虚拟机实际上是以文件形式存放，可以通过迁移或拷贝文件的方式，实现对虚拟机的迁移；  </p>
+<p>  4）相对于硬件独立，不需要更改配置，虚拟机可以在任意服务器上运行；  </p>
+<h4 id="9-CPU虚拟化"><a href="#9-CPU虚拟化" class="headerlink" title="9.CPU虚拟化"></a>9.CPU虚拟化</h4><p><img src="0050.png" alt=""><br><img src="005.png" alt=""></p>
+<p>   Intel的CPU将特权级别分为4个级别：Ring0,RIing1,Ring2,Ring3。Windows只使用其中的两个级别Ring0和Ring3，Ring0只给操作系统用，Ring3谁都能用。如果普通应用程序企图执行Ring0指令，则Windows会显示“非法指令”错误信息。</p>
+<p>  Ring 0：用于操作系统内核，优先级最高，拥有最高的“特权”； </p>
+<p>  Ring 1和Ring 2：用于操作系统服务，优先级次之；  </p>
+<p>  Ring 3：用于应用程序，优先级最低。  </p>
+<h4 id="10-内存虚拟化"><a href="#10-内存虚拟化" class="headerlink" title="10.内存虚拟化"></a>10.内存虚拟化</h4><p><img src="006.png" alt=""></p>
+<p>  我们知道，早期的计算机内存，只有物理内存，而且空间是极其有限的，每个应用或进程在使用内存时都得小心翼翼，不能覆盖别的进程的内存区。  </p>
+<p>  为了避免这些问题，就提出了虚拟内存的概念，其抽象了物理内存，相当于对物理内存进行了虚拟化，保证每个进程都被赋予一块连续的，超大的（根据系统结构来定，32 位系统寻址空间为 2<sup>32</sup>，64 位系统为 2<sup>64</sup>）虚拟内存空间，进程可以毫无顾忌地使用内存，不用担心申请内存会和别的进程冲突，因为底层有机制帮忙处理这种冲突，能够将虚拟地址根据一个页表映射成相应的物理地址。这种机制正是虚拟化软件做的事，也就是 MMU 内存管理单元。  </p>
+<p><img src="007.png" alt=""></p>
+<p>  这里要说的不是这种虚拟内存，而是基于虚拟机的内存虚拟化，它们本质上是一样的，通过对虚拟内存的理解，再去理解内存虚拟化就比较容易了。  </p>
+<p>  虚拟机本质上是 Host 机上的一个进程，按理说应该可以使用 Host 机的虚拟地址空间，但由于在虚拟化模式下，虚拟机处于非 Root 模式，无法直接访问 Root 模式下的 Host 机上的内存。</p>
+<p>  这个时候就需要 VMM 的介入，VMM 需要 intercept （截获）虚拟机的内存访问指令，然后 virtualize（模拟）Host 上的内存，相当于 VMM 在虚拟机的虚拟地址空间和 Host 机的虚拟地址空间中间增加了一层，即虚拟机的物理地址空间，也可以看作是 Qemu 的虚拟地址空间（稍微有点绕，但记住一点，虚拟机是由 Qemu 模拟生成的就比较清楚了）。</p>
+<p>  所以，内存软件虚拟化的目标就是要将虚拟机的虚拟地址（Guest Virtual Address, GVA）转化为 Host 的物理地址（Host Physical Address, HPA），中间要经过虚拟机的物理地址（Guest Physical Address, GPA）和 Host 虚拟地址（Host Virtual Address）的转化，即：  </p>
+<blockquote>
+<p>GVA -&gt; GPA -&gt; HVA -&gt; HPA  </p>
+</blockquote>
+<p>  其中前两步由虚拟机的系统页表完成，中间两步由 VMM 定义的映射表（由数据结构 kvm_memory_slot 记录）完成，它可以将连续的虚拟机物理地址映射成非连续的 Host 机虚拟地址，后面两步则由 Host 机的系统页表完成。如下图所示。</p>
+<p><img src="008.png" alt=""></p>
+<h4 id="11-I-O虚拟化"><a href="#11-I-O虚拟化" class="headerlink" title="11.I/O虚拟化"></a>11.I/O虚拟化</h4><p>  现实中的外设资源是有限的，为了满足多个客户机操作系统的需求，VMM必须通过I/O虚拟化的方式来复用有限的外设资源；VMM截获客户操作系统对设备的访问请求，然后通过软件的方式来模拟真实设备的效果。  </p>
+<p>  <strong>I/O虚拟化可以分为：</strong></p>
+<p>  <strong>模拟（完全虚拟）</strong>：完全使用软件来模拟真实硬件，模拟通常硬件，例如键盘鼠标，通过焦点捕获，焦点被哪个主机捕获就被哪个主机使用，性能很差；  </p>
+<p>  <strong>半虚拟化</strong>：对硬件驱动由前端（IO frontend）直接转到后端（IO backend）调用，通常金适用于硬盘和网卡，性能高；  </p>
+<p>  <strong>IO-through</strong>：IO透传，直接分配给虚拟机物理设备，例如直接分配一个硬盘或网卡给虚拟机，需要硬件具备IO透传技术，在Xen下由Dom0分配，但是访问使用直接使用，不经过Dom0，需要硬件支持。  </p>
+<h4 id="12-云计算和虚拟化的区别"><a href="#12-云计算和虚拟化的区别" class="headerlink" title="12.云计算和虚拟化的区别"></a>12.云计算和虚拟化的区别</h4><p>  ⑴云计算是一种模式，虚拟化是一种技术;  </p>
+<p>  ⑵虚拟化是云计算在IaaS层所使用技术，但并非云计算的核心关注点；  </p>
+<h4 id="13-主流的计算虚拟化技术"><a href="#13-主流的计算虚拟化技术" class="headerlink" title="13.主流的计算虚拟化技术"></a>13.主流的计算虚拟化技术</h4><p><img src="009.png" alt=""><br><img src="0090.png" alt=""></p>
+<p>  <strong>Xen Hypervisor</strong>：直接运行于硬件之上，是Xen客户操作系统与硬件资源之间的访问接口。通过将客户操作系统与硬件进行分类，Xen管理系统可以允许客户操作系统安全，独立的运行在相同硬件环境之上。  </p>
+<p>  <strong>Domain 0</strong>：运行在Xen管理程序之上，具有直接访问硬件和管理其他客户操作系统的特权的客户操作系统。   </p>
+<p>  <strong>Domain U</strong>：运行在Xen管理程序之上的普通客户操作系统或业务操作系统，不能直接访问硬件资源（如：内存，硬盘等），但可以独立并行的存在多个。  </p>
+<h4 id="14-KVM是什么？"><a href="#14-KVM是什么？" class="headerlink" title="14.KVM是什么？"></a>14.KVM是什么？</h4><p><img src="010.png" alt=""></p>
+<p>  KVM(Kernel Virtual Machine，内核虚拟机)基于虚拟化扩展（Intel VT或AMD-V）的x86硬件平台实现Linux的全虚拟化解决方案。  </p>
+<p>  KVM 中，虚拟机被实现为常规的 Linux 进程，由标准 Linux 调度程序进行调度；虚机的每个虚拟 CPU 被实现为一个常规的 Linux 进程。这使得 KMV 能够使用 Linux 内核的已有功能。但是，KVM 本身不执行任何硬件模拟，需要客户空间程序通过 /dev/kvm 接口设置一个客户机虚拟服务器的地址空间，向它提供模拟的 I/O，并将它的视频显示映射回宿主的显示屏。目前这个应用程序是QEMU。  </p>
+<h4 id="15-KVM体系架构"><a href="#15-KVM体系架构" class="headerlink" title="15.KVM体系架构"></a>15.KVM体系架构</h4><p><img src="011.png" alt=""></p>
+<p>  <strong>libvirt</strong>：主要是用于管理KVM和Hypervisor<br>  <strong>virt-manager</strong>：是kvm图形化管理工具<br>  <strong>virt-install</strong>：是kvm的CLI命令，主要是用于创建虚拟机<br>  <strong>virt-viewer</strong>：显示虚拟机的图形控制台的最小工具  </p>
+<h4 id="16-KVM——Libvirt管理工具"><a href="#16-KVM——Libvirt管理工具" class="headerlink" title="16.KVM——Libvirt管理工具"></a>16.KVM——Libvirt管理工具</h4><p><img src="012.png" alt=""></p>
+<p>  Libvirt：是 KVM 的管理工具。Libvirt 除了能管理 KVM 这种 Hypervisor，还能管理 Xen，VirtualBox 等。OpenStack 底层也使用 Libvirt。</p>
+<p>  Libvirt 包含 3 个东西：后台 daemon 程序 libvirtd、API 库和命令行工具 virsh</p>
+<p>   （1）libvirtd是服务程序，接收和处理 API 请求；</p>
+<p>   （2）API 库使得其他人可以开发基于 Libvirt 的高级工具，比如 virt-manager，这是个图形化的 KVM 管理工具，后面我们也会介绍；</p>
+<p>   （3）virsh 是我们经常要用的 KVM 命令行工具，后面会有使用的示例。作为 KVM 和 OpenStack 的实施人员，virsh 和 virt-manager 是一定要会用的。</p>
+<h4 id="17-KVM默认操作I-O流程"><a href="#17-KVM默认操作I-O流程" class="headerlink" title="17.KVM默认操作I/O流程"></a>17.KVM默认操作I/O流程</h4><p><img src="013.png" alt=""></p>
+<p>  1） 虚拟机中的磁盘设备发起一次IO操作请求；   </p>
+<p>  2) KVM模块中的I/O Trap Code（I/O捕获程序）将这个IO操作请求捕获到，进行相应的处理，然后将处理后的请求放到I/O共享页中；  </p>
+<p>  3) KVM模块会通知QEMU，告诉它有新的I/O操作请求放到了共享页中；   </p>
+<p>  4) QEMU收到通知后，到共享页中获取该I/O操作请求的具体信息；   </p>
+<p>  5) QEMU对该请求进行模拟，同时根据I/O操作请求的信息调用运行在内核态的设备驱动，去进行真正的IO操作；   </p>
+<p>  6) 通过设备驱动去对物理硬件执行真正的IO操作；   </p>
+<p>  7 QEMU将执行后的结果返回到共享页中，同时通知KVM模块已完成了此次的I/O操作；   </p>
+<p>  8) I/O捕获程序从共享页中将返回的结果读取出来；  </p>
+<p>  9) I/O捕获程序将操作结果返回给虚拟机； </p>
+<p>  10) 虚拟机的将结果返回给发起操作的应用程序。   </p>
+<h4 id="18-KVM——Virtio的I-O操作流程"><a href="#18-KVM——Virtio的I-O操作流程" class="headerlink" title="18.KVM——Virtio的I/O操作流程"></a>18.KVM——Virtio的I/O操作流程</h4><p><img src="014.png" alt=""></p>
+<p>  1) 第一步也是由虚拟机发起I/O操作请求；   </p>
+<p>  2) 第二步的时候和使用默认模型不一样，这个I/O操作请求不会经过I/O捕获程序，而是直接以前后端的形式放到环形缓冲区，同时KVM模块通知后端驱动；   </p>
+<p>  3) QEMU到环形缓冲区获取到操作请求的具体信息； </p>
+<p>  4) 后端驱动直接调用真实的物理设备驱动进行具体的I/O操作； </p>
+<p>  5) 由真实的设备驱动完成此次操作；   </p>
+<p>  6) QEMU将完成结果返回到环形缓冲区，并且由KVM模块通知前端驱动；   </p>
+<p>  7) 前端驱动从环形缓冲区获取到此次I/O操作的结果；</p>
+<p>  8) 前端驱动将结果返回给具体发起该操作的应用程序。</p>
+<h4 id="19-FusionCompute是什么？"><a href="#19-FusionCompute是什么？" class="headerlink" title="19.FusionCompute是什么？"></a>19.FusionCompute是什么？</h4><p><img src="015.png" alt=""></p>
+<p>  <strong>FusionCompute</strong>是云操作系统软件，主要负责对虚拟资源、业务资源、用户资源的集中管理。它采用统一的接口，对这些虚拟资源进行集中调度和管理，从而降低业务的运行成本，保证系统的安全性和可靠性，协助运营商和企业构筑安全、绿色、节能的云数据中心能力。</p>
+<h4 id="20-FusionComput产品结构"><a href="#20-FusionComput产品结构" class="headerlink" title="20.FusionComput产品结构"></a>20.FusionComput产品结构</h4><h5 id="软件组成"><a href="#软件组成" class="headerlink" title="软件组成"></a><strong>软件组成</strong></h5><p><img src="016.png" alt=""></p>
+<p>  <strong><code>FusionCompute</code></strong>由 <strong><code>CNA</code></strong>（ComputingNode Agent，计算节点代理）、<strong><code>VNA</code></strong>虚拟节点代理，部署在CNA上，实施计算、存储、网络的虚拟化的配置管理、<strong><code>VRM</code></strong> (Virtual Resource Manager，虚拟资源管理器) 组成。</p>
+<p>  下表介绍FusionCompute各模块功能：  </p>
+<table boder="0">
+ <tbody><tr>
+   <td align="center">模块</td>
+   <td align="center">功能</td>
+ </tr>
+  <tr>
+   <td align="center">CNA</td>
+   <td>CNA主要提供以下功能：
+
+<ul>
+<li><p>提供虚拟计算功能。  </p>
+</li>
+<li><p>管理计算节点上的虚拟机。  </p>
+</li>
+<li><p>管理计算节点上的计算、存储、网络资源。  </p>
+ </li></ul></td>
+ </tr><tr>
+<td align="center">VRM</td>
+<td>
+VRM主要提供以下功能：
+
+<li><p>管理集群内的块存储资源。<br>通过DHCP（Dynamic Host Configuration Protocol）为虚拟机分配私有IP地址。  </p>
+</li>
+<li><p>管理集群内的计算节点，将物理的计算资源映射成虚拟的计算资源。  </p>
+</li>
+<li><p>管理集群内的网络资源(IP/VLAN/DHCP)，为虚拟机分配IP地址。  </p>
+</li>
+<li><p>管理集群内虚拟机的生命周期以及虚拟机在计算节点上的分布和迁移。  </p>
+</li>
+<li><p>管理集群内资源的动态调整。  </p>
+</li>
+<li><p>通过对虚拟资源、用户数据的统一管理，对外提供弹性计算、存储、IP等服务。  </p>
+</li>
+<li><p>通过提供统一的操作维护管理接口，操作维护人员通过WebUI远程访问FusionCompute对整个系统进行操作维护，包含资源管理、资源监控、资源报表等。  </p>
+</li></td>
+</tr>
+
+</tbody></table>
+
+
+
+<p>  <strong>VRM</strong>是FusionCompute系统的管理单元，一般运行在虚拟机上，能够对系统的虚拟资源、业务资源、用户资源进行集中管理，为管理员提供统一的维护操作接口。</p>
+<h5 id="接口与协议"><a href="#接口与协议" class="headerlink" title="接口与协议"></a>接口与协议</h5><p>  FusionCompute提供开放、标准的协议接口，可与多种设备实现对接或互通，与对接实体之间的接口与协议如下图所示。  </p>
+<p><img src="017.png" alt=""></p>
+<p>FusionCompute支持的接口作用:  </p>
+<p>  也即VRM系统对外提供的接口，主要用于FusionManager从FusionCompute获取虚拟化资源配置、告警等信息；FusionCompute根据FusionManager的指令，对虚拟机进行管理。对接实体是<code>FusionManager</code>，采用协议名称<code>REST</code>。</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Panakot</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://www.panakot.cn/2020/06/15/hcia-cloud-02-ji-suan-xu-ni-hua-jian-jie/">https://www.panakot.cn/2020/06/15/hcia-cloud-02-ji-suan-xu-ni-hua-jian-jie/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Panakot</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/06/16/hcia-cloud-03-yun-ji-suan-zhong-de-wang-luo-ji-chu-zhi-shi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="HCIA-Cloud-03-云计算中的网络基础知识">
+                        
+                        <span class="card-title">HCIA-Cloud-03-云计算中的网络基础知识</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-16
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Panakot
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/06/15/hcia-cloud-01-yun-ji-suan-jian-jie/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="HCIA-Cloud-01-云计算简介">
+                        
+                        <span class="card-title">HCIA-Cloud-01-云计算简介</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            HICA-Cloud-01-云计算简介1.什么是云计算？  目前我们所生活带来的便利大部分都是由云计算提供的服务。如腾讯大部分的软件都是由腾讯云计算提供服务、如百度提供资料存储、手机的信息备份、云音乐、云笔记……  
+
+
+
+   
+
+
+  
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-15
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Panakot
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 吉舒斋<br />'
+            + '文章作者: Panakot<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2017</span>
+            <a href="/about" target="_blank">Panakot</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">28.7k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/panakot/ico" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:panakot@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1595297387" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1595297387" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
